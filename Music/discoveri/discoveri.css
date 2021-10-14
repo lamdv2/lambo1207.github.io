@@ -47,6 +47,8 @@ html {
 a{
     color: #fff;
     text-decoration: none;
+    line-height: 46px;
+    width: 100%;
 }
 
 .main {
@@ -86,7 +88,7 @@ a{
 .nav-item {
     display: flex;
     color: var(--navigation-text);
-    padding: 10px 20px;
+    padding: 0 20px;
     align-items: center;
     font-weight: 600;
     font-size: 13px;
