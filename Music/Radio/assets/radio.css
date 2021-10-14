@@ -44,6 +44,11 @@ html {
     font-family: 'Inter', sans-serif;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .main {
     display: flex;
     /* overflow: hidden; */
@@ -520,7 +525,7 @@ html {
 .header {
     position: fixed;
     top: 0;
-    left: 240px;
+    left: 15%;
     right: 0;
     display: flex;
     align-items: center;
@@ -670,21 +675,6 @@ html {
 .radio-anh{
     position: relative;
 }
-
-/* .noidung {
-    width: 50%;
-    height: 50%;
-    overflow: hidden;
-}
-
-.radio-anh .radio-item{
-    width: 50%;
-    height: 50%;
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -ms-transition: all 2s ease;
-    transition: all 2s ease;
-} */
 
 .radio-anh:hover .radio-item{
     cursor: pointer;
@@ -1146,68 +1136,7 @@ img, video {
     overflow: hidden;
 }
 
-.container_body--layout_list--title{
-    width: 100%;
-    margin-bottom: 10px;
-    height: 30px;
-    display: flex;
-}
-
-.icon_slider_user .container_body--layout_list--title_icon{
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-}
-.icon_slider_user .container_body--layout_list--title_icon i{
-    height: 38px;
-    width: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 38px;
-    color: rgb(63, 49, 49) !important;
-    background-color: var(--text-color);
-    opacity: 0.6;
-}
-
-.icon_slider_user .container_body--layout_list--title_icon i.active{
-    background-color: var(--white-color);
-}
-
-.container_body--layout_list--title_icon{
-    display: flex;
-    list-style: none;
-    width: 80px;
-    margin: auto;
-    justify-content: space-between;
-}
-
-.container_body--layout_list--title_icon i{
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    display: flex;
-    line-height: 30px;
-    justify-content: center;
-    color: var(--text-color);
-    opacity: 0.5;
-}
-
-.container_body--layout_list--title_icon i.active{
-    color: var(--white-color);
-    opacity: 1;
-    cursor: pointer;
-}
-
-.container_body--layout_list--title_name{
-    color: var(--white-color);
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 30px;
-    cursor: auto;
-    width: 100%;
-}
-
-
+/* ----------end user profile------- */
 
 /* -------------------- */
 

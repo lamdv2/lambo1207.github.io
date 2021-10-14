@@ -39,9 +39,13 @@ html {
     font-family: 'Inter', sans-serif;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .main {
     display: flex;
-    overflow: hidden;
 }
 
 .sidebar {
@@ -526,6 +530,7 @@ html {
     padding: 0 32px;
     height: 70px;
     z-index: 1000;
+    background-color: #170f23;
 }
 
 .header-left {
