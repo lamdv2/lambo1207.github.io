@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/icon_zing_mp3_60.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/radio.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>DreamTeam</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar hide-on-mobile">
+            <div class="sidebar-logo">
+                <a href="#">
+                    <img src="../assets/img/home/logo-dark.svg" alt="" class="logo-img hide-on-t-m">
+                    <img src="../assets/img/icon_zing_mp3_60.f6b51045.svg" alt="" class="logo-img-t-m">
+                </a>
+            </div>
+
+            <div class="navbar">
+                <div class="nav-item active">
+                    <i class="nav-item-icon fas fa-music"></i>
+                    <p class="nav-item-text hide-on-t-m">Cá Nhân</p>
+                </div>
+
+                <div class="nav-item discoveri">
+                    <i class="nav-item-icon fas fa-map-marked-alt"></i>
+                    <p class="nav-item-text hide-on-t-m">Khám Phá</p>
+                </div>
+
+                <div class="nav-item zingchart">
+                    <i class="nav-item-icon fas fa-globe"></i>
+                    <p class="nav-item-text hide-on-t-m">#zingchart</p>
+                </div>
+
+                <div class="nav-item radio">
+                    <i class="nav-item-icon fas fa-podcast"></i>
+                    <p class="nav-item-text hide-on-t-m">Radio</p>
+                    <figure class="image tag is-48x48">
+                        <img src="https://zjs.zadn.vn/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg" alt="">
+                    </figure>
+                </div>
+
+                <div class="nav-item flow">
+                    <i class="nav-item-icon ri-album-line"></i>
+                    <p class="nav-item-text hide-on-t-m">Theo Dõi</p>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="nav-item">
+                    <i class="nav-item-icon fas fa-headphones"></i>
+                    <p class="nav-item-text hide-on-t-m">Nhạc Mới</p>
+                </div>
+
+                <div class="nav-item">
+                    <i class="nav-item-icon fas fa-th-large"></i>
+                    <p class="nav-item-text hide-on-t-m">Thể Loại</p>
+                </div>
+
+                <div class="nav-item">
+                    <i class="nav-item-icon far fa-star"></i>
+                    <p class="nav-item-text hide-on-t-m">Top 100</p>
+                </div>
+
+                <div class="nav-item">
+                    <i class="nav-item-icon ri-youtube-line"></i>
+                    <p class="nav-item-text hide-on-t-m">MV</p>
+                </div>
+            </div>
+
+            <div class="vip-sidebar hide-on-t-m">
+                <p class="vip-heading">
+                    Nghe nhạc không quảng cáo cùng kho nhạc VIP
+                </p>
+                <button class="btn-buy-vip">
+                    MUA VIP
+                </button>
+            </div>
+
+            <div class="line hide-on-t-m"></div>
+
+            <div class="new-playlist hide-on-t-m  is-flex">
+                <p>
+                    <span class="new-playlist-icon">+</span>
+                    <span>Tạo playlist mới</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="player">
+            <header class="header">
+                <div class="header-left">
+                    <div class="header-btn hide-on-mobile">
+                        <i class="ri-arrow-left-line header-icon-prev"></i>
+                        <i class="ri-arrow-right-line header-icon-next"></i>
+                    </div>
+                    <div class="header-search is-flex">
+                        <i class="ri-search-line icon-search"></i>
+                        <input type="text" class="search-input" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                    </div>
+                </div>
+                <div class="header-user is-flex">
+                    <i class="ri-t-shirt-fill hide-on-mobile"></i>
+                    <i class="ri-upload-line hide-on-t-m"></i>
+                    <i class="ri-settings-5-line hide-on-mobile"></i>
+                    <img src="https://avatar.talk.zdn.vn/default.jpg" alt="" class="icon-user">
+                </div>
+            </header>
+
+            <!-- User user-profile -->
+            <div class="user-profile">
+                <div class="z-radio-home">
+                    <!-- background -->
+                    <div class="bg">
+                        <div class="bg-blur"></div>
+                        <div class="bg-alpha"></div>
+                        <div class="bg-alpha-1"></div>
+                    </div>
+                    <!-- end background -->
+                    
+                    <!-- content -->
+                    <div class="zm-section">
+                        <!-- radio-live -->
+                        <div class="all-radio">
+                            <div class="discover-item">  
+                                <div class="radio-anh ">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/c/8/5/b/c85b1ed67eeff74065acade8929ad4e1.jpg"  alt="" class="radio-item " >
+                                    
+                                    <svg class="svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                        <circle class="svg-circle-bg" stroke="rgba(255, 255, 255, 0.2)" cx="50" cy="50" r="48.75" stroke-width="2.5"></circle>
+                                        <circle class="svg-circle" stroke="#ff4b4a" cx="50" cy="50" r="48.75" stroke-width="2.5" stroke-dasharray="306.3052837250048" stroke-dashoffset="228.9547478281604" style="transition: stroke-dashoffset 850ms ease-in-out 0s;"></circle>
+                                    </svg>
+
+                                    <figure class="image live is-48x48">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg" alt="">
+                                    </figure>
+                                    <figure class="image host is-48x48">
+                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/7/7/8/d/778d152062edfbe0e4c4abf151858bf0.jpg" alt="">
+                                    </figure>
+                                    <div class="action-radio">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                </div>
+                                
+                                <div class="radio-name"><a href="#">Chill</a></div>
+                                <div class="radio-view"><a href="#">650 đang nghe</a></div>
+                            </div>
+                            
+                            <div class="discover-item">  
+                                <div class="radio-anh">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/f/d/7/9/fd79808d2180de9a421afa6aff38953e.jpg"  alt="" class="radio-item VPOP" >
+                                    <svg class="svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                        <circle class="svg-circle-bg" stroke="rgba(255, 255, 255, 0.2)" cx="50" cy="50" r="48.75" stroke-width="2.5"></circle>
+                                        <circle class="svg-circle" stroke="#ff4b4a" cx="50" cy="50" r="48.75" stroke-width="2.5" stroke-dasharray="306.3052837250048" stroke-dashoffset="118.9547478281604" style="transition: stroke-dashoffset 850ms ease-in-out 0s;"></circle>
+                                    </svg>
+                                    <figure class="image live is-48x48">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg" alt="">
+                                    </figure>
+                                    <figure class="image host is-48x48">
+                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/1/4/6/b/146b49d11cc9b3bc591823bfedb8bce2.jpg" alt="">
+                                    </figure>
+                                    <div class="action-radio">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="radio-name"><a href="#">V-Pop</a></div>
+                                <div class="radio-view"><a href="#">450 đang nghe</a></div>
+                            </div>
+                            <div class="discover-item">  
+                                <div class="radio-anh">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/4/8/c/e/48cefd41cfc03533d52303190f47e6ef.jpg"  alt="" class="radio-item" >
+                                    <svg class="svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                        <circle class="svg-circle-bg" stroke="rgba(255, 255, 255, 0.2)" cx="50" cy="50" r="48.75" stroke-width="2.5"></circle>
+                                        <circle class="svg-circle" stroke="#ff4b4a" cx="50" cy="50" r="48.75" stroke-width="2.5" stroke-dasharray="306.3052837250048" stroke-dashoffset="208.9547478281604" style="transition: stroke-dashoffset 850ms ease-in-out 0s;"></circle>
+                                    </svg>
+                                    <figure class="image live is-48x48">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg" alt="">
+                                    </figure>
+                                    <figure class="image host is-48x48">
+                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/1/3/0/5/1305cd954d22d89fef4354301613fd68.jpg" alt="">
+                                    </figure>
+                                    <div class="action-radio"> 
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="radio-name"><a href="#">Bolero</a></div>
+                                <div class="radio-view"><a href="#">200 đang nghe</a></div>
+                            </div>
+                            <div class="discover-item">  
+                                <div class="radio-anh">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/d/0/0/b/d00b7e555c8d7c2983d1fc0373a1e67a.jpg"  alt="" class="radio-item RapViet" >
+                                    <svg class="svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                        <circle class="svg-circle-bg" stroke="rgba(255, 255, 255, 0.2)" cx="50" cy="50" r="48.75" stroke-width="2.5"></circle>
+                                        <circle class="svg-circle" stroke="#ff4b4a" cx="50" cy="50" r="48.75" stroke-width="2.5" stroke-dasharray="306.3052837250048" stroke-dashoffset="28.9547478281604" style="transition: stroke-dashoffset 850ms ease-in-out 0s;"></circle>
+                                    </svg>
+                                    <figure class="image live is-48x48">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg" alt="">
+                                    </figure>
+                                    <figure class="image host is-48x48">
+                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/8/5/4/0/854010f76bddeefd5f13305a1d6cc8be.jpg" alt="">
+                                    </figure>
+                                    <div class="action-radio">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="radio-name"><a href="#">On Air</a></div>
+                                <div class="radio-view"><a href="#">11k đang nghe</a></div>
+                            </div>
+                            <div class="discover-item">  
+                                <div class="radio-anh">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/b/f/2/2/bf223818f85e7fe129091b415038ca6c.jpg"  alt="" class="radio-item" >
+                                    <svg class="svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                        <circle class="svg-circle-bg" stroke="rgba(255, 255, 255, 0.2)" cx="50" cy="50" r="48.75" stroke-width="2.5"></circle>
+                                        <circle class="svg-circle" stroke="#ff4b4a" cx="50" cy="50" r="48.75" stroke-width="2.5" stroke-dasharray="306.3052837250048" stroke-dashoffset="268.9547478281604" style="transition: stroke-dashoffset 850ms ease-in-out 0s;"></circle>
+                                    </svg>
+                                    <figure class="image live is-48x48">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg" alt="">
+                                    </figure>
+                                    <figure class="image host is-48x48">
+                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/b/f/3/b/bf3bf87a788a5d0b8719c6feee774a2e.jpg" alt="">
+                                    </figure>
+                                    <div class="action-radio">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="radio-name"><a href="#">Rap Viet</a></div>
+                                <div class="radio-view"><a href="#">60 đang nghe</a></div>
+                            </div>
+                            <div class="discover-item">  
+                                <div class="radio-anh">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/e/f/b/0/efb05fb9097a7057aecef6ecb62bff5a.jpg"  alt="" class="radio-item" >
+                                    <svg class="svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                        <circle class="svg-circle-bg" stroke="rgba(255, 255, 255, 0.2)" cx="50" cy="50" r="48.75" stroke-width="2.5"></circle>
+                                        <circle class="svg-circle" stroke="#ff4b4a" cx="50" cy="50" r="48.75" stroke-width="2.5" stroke-dasharray="306.3052837250048" stroke-dashoffset="158.9547478281604" style="transition: stroke-dashoffset 850ms ease-in-out 0s;"></circle>
+                                    </svg>
+                                    <figure class="image live is-48x48">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg" alt="">
+                                    </figure>
+                                    <figure class="image host is-48x48">
+                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/0/9/9/3/0993b3110c60ba6518fceeba9913d20d.jpg" alt="">
+                                    </figure>
+                                    <div class="action-radio">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="radio-name"><a href="#">Acoustic</a></div>
+                                <div class="radio-view"><a href="#">5k đang nghe</a></div>
+                            </div>
+
+                            <div class="discover-item">  
+                                <div class="radio-anh">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/c/5/3/1/c531d15ce3006ab3c7467a2c0315f1b7.jpg"  alt="" class="radio-item" >
+                                    <svg class="svg" width="100%" height="100%" viewBox="0 0 100 100">
+                                        <circle class="svg-circle-bg" stroke="rgba(255, 255, 255, 0.2)" cx="50" cy="50" r="48.75" stroke-width="2.5"></circle>
+                                        <circle class="svg-circle" stroke="#ff4b4a" cx="50" cy="50" r="48.75" stroke-width="2.5" stroke-dasharray="306.3052837250048" stroke-dashoffset="178.9547478281604" style="transition: stroke-dashoffset 850ms ease-in-out 0s;"></circle>
+                                    </svg>
+                                    <figure class="image live is-48x48">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/dev/147506/static/media/live-tag.e25dd240.svg" alt="">
+                                    </figure>
+                                    <figure class="image host is-48x48">
+                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/b/0/d/a/b0da7c8ecd6521337682f3a86fa0170f.jpg" alt="">
+                                    </figure>
+                                    <div class="action-radio">
+                                        <i class="far fa-play-circle"></i>
+                                    </div>
+                                </div>
+                                <div class="radio-name"><a href="#">One the radio</a></div>
+                                <div class="radio-view"><a href="#">4k đang nghe</a></div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- radio-list -->
+                        <div class="container_body--layout">
+                            <!-- radio-list-item -->
+                            <div class="container_body--layout_list">
+
+                                <!-- Lich Phat Song -->
+                                <div class="lichphatsong">
+                                    <div class="lich-header">
+                                        <ul class="lich-nav">
+                                            <li>Lịch Phát Sóng</li>
+                                            <li>6:00</li>
+                                            <li>8:00</li>
+                                            <li>10:00</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="lich-content">
+                                        <div class="lich-content-left">
+                                            <div class="lich-content-left-anh">
+                                                <div class="lich-anh-item">
+                                                    <div>
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w165_r1x1_jpeg/cover/a/6/9/5/a6955b69642f464dbbe4e42443c456bb.jpg" alt="">
+                                                        <div class="lich-anh-item-icon">
+                                                            <i class="far fa-play-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lich-anh-item">
+                                                    <div>
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w165_r1x1_jpeg/cover/8/c/e/5/8ce5be6d880a79538136860b5327efc9.jpg" alt="">
+                                                        <div class="lich-anh-item-icon">
+                                                            <i class="far fa-play-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lich-anh-item">
+                                                    <div>
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w165_r1x1_jpeg/cover/4/5/2/4/4524691ae09fafaf74386afad10a7a39.jpg" alt="">
+                                                        <div class="lich-anh-item-icon">
+                                                            <i class="far fa-play-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="lich-content-right">
+                                            <div class="lich-content-right-item ">
+                                                <div class="lich-content-right-first" style="--percent: 30%">
+                                                    <div class="lich-content-right-child">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/e/8/5/c/e85cd54f851f926cb014e594f9ca3c83.jpg" alt="">
+                                                        <div class="lich-content-right-text ">
+                                                            <h3>WORKTIME LOUNGE</h3>
+                                                            <span>6:00 - 8:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="lich-content-right-secon" style="--percent: 30%">
+                                                    <div class="lich-content-right-child">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/a/a/2/f/aa2f8ccca8c00f693c33af3215e0439f.jpg" alt="">
+                                                        <div class="lich-content-right-text">
+                                                            <h3>XONE'S PICKS</h3>
+                                                            <span>8:00 - 10:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="lich-content-right-three" style="--percent: 40%">
+                                                    <div class="lich-content-right-child">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/7/0/2/f/702f24722867da2e71474520c25290c9.jpg" alt="">
+                                                        <div class="lich-content-right-text">
+                                                            <h3>DRIVE XONE</h3>
+                                                            <span>10:00 - 12:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="lich-content-right-item">
+                                                <div class="lich-content-right-first" style="--percent: 50%">
+                                                    <div class="lich-content-right-child">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/b/8/b/9/b8b9ef449d113bb446f4c49fcb686843.jpg" alt="">
+                                                        <div class="lich-content-right-text">
+                                                            <h3>Nhạc Mới Mỗi Ngày</h3>
+                                                            <span>6:00 - 9:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="lich-content-right-secon" style="--percent: 33.33333%">
+                                                    <div class="lich-content-right-child">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/7/5/c/0/75c057580f53520990b50fc350e901a4.jpg" alt="">
+                                                        <div class="lich-content-right-text">
+                                                            <h3>On Air Playlist</h3>
+                                                            <span>9:00 - 11:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="lich-content-right-three" style="--percent: 16.66667%">
+                                                    <div class="lich-content-right-child">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/0/1/e/1/01e1f4f970ee0e58b112558bdbe3f0e6.jpg" alt="">
+                                                        <div class="lich-content-right-text">
+                                                            <h3>Wazzup</h3>
+                                                            <span>11:00 - 12:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="lich-content-right-item">
+                                                <div class="lich-content-right-first" style="--percent: 40%">
+                                                    <div class="lich-content-right-child">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/2/7/e/6/27e617b8db26d7ae13378f4601eda4c5.jpg" alt="">
+                                                        <div class="lich-content-right-text">
+                                                            <h3>Mỗi ngày một niềm vui cùng Chạm</h3>
+                                                            <span>5:00 - 7:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="lich-content-right-secon" style="--percent: 35%">
+                                                    <div class="lich-content-right-child">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/2/a/2/d/2a2dc42341a08901b5fba1ebcb9a9410.jpg" alt="">
+                                                        <div class="lich-content-right-text">
+                                                            <h3>Buồn một chút cùng Chạm thôi</h3>
+                                                            <span>7:00 - 9:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="lich-content-right-three" style="--percent: 25%">
+                                                    <div class="lich-content-right-child">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/6/3/3/9/6339dc19f06ec57437704c06a42fcd7a.jpg" alt="">
+                                                        <div class="lich-content-right-text">
+                                                            <h3>NITEXONE</h3>
+                                                            <span>9:00 - 12:00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="hoverrr">
+                                            <i class="fa fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <!-- end lich phat song -->
+
+                                <div class="radio-list-item-layout">
+                                    
+                                    <div class="content1 radio-media-content">
+                                        <div class="radio-media-left">
+                                            <div class="radio-media-image">
+                                                <figure class="image is-50x50" title="Xone Radio">
+                                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/0/8/2/5/0825d8cd559dee502625a25d540c636a.jpg" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="radio-media-content">
+                                            <h3 class="radio-subtitle">Nghe lại</h3>
+                                            <h3 class="title">
+                                                Xone Radio
+                                            </h3>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="discover">
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/4/c/6/d/4c6d8832b6117694f78b7881bb4d7f62.jpg"  alt="" class="imgradio " >
+                                                
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">XONE With Stars</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/e/f/e/4/efe43a4286962f943e80d5fc1a8a52ea.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">BREAKFAST XONE</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/0/6/2/c/062cecbd900f2694e37abea6272ae723.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">DRIVEXONE</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/c/2/b/c/c2bcdd306a961ad3444b2ecb96f512c5.jpg" alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">XONE REWIND</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/7/0/9/9/709901a367ffdbec74ab134952089084.jpg" alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">E-CITY</div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="radio-list-item-layout">
+                                    
+                                    <div class="content1 radio-media-content">
+                                        <div class="radio-media-left">
+                                            <div class="radio-media-image">
+                                                <figure class="image is-50x50" title="Xone Radio">
+                                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/d/c/5/b/dc5b49e6cb115ee1d3fa0bf749a2efd1.jpg" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="radio-media-content">
+                                            <h3 class="radio-subtitle">podcast</h3>
+                                            <h3 class="title">
+                                                Vietcetera
+                                            </h3>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="discover">
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/b/c/9/a/bc9a9feaff8fe7bda8bc67621b8c1312.jpg"  alt="" class="imgradio " >
+                                                
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Em Hát Ai Nghe (Single)</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/d/8/3/7/d837ab1d67f49c5910e297c154ac1e07.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Để Tôi Lại Yêu Sài Gòn (Single)</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/f/9/7/6/f976d23d8a1d6ebf2269de3ee930ff2b.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Cho Đến Khi Trời Đất Sụp Đổ (Single)</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/5/4/a/f/54afacb532e00ba6c42549d28e1974b5.jpg" alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Cớ Sao Em Buồn (Remix by Orinn)</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/1/c/6/2/1c627cff9d84ac682fbc567ecb01e156.jpg" alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Việt Nam Cố Lên (Single)</div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="radio-list-item-layout">
+                                    
+                                    <div class="content1 radio-media-content">
+                                        <div class="radio-media-left">
+                                            <div class="radio-media-image">
+                                                <figure class="image is-50x50" title="Xone Radio">
+                                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/8/5/4/0/854010f76bddeefd5f13305a1d6cc8be.jpg" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="radio-media-content">
+                                            <h3 class="radio-subtitle">Nghe Lại</h3>
+                                            <h3 class="title">
+                                                On Air
+                                            </h3>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="discover">
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/b/6/2/9/b62924a278894d95b01e0294f5abb892.jpg"  alt="" class="imgradio " >
+                                                
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Nhạc Mới Mỗi Ngày</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/f/b/5/c/fb5cbbc66d4cb773958d7d5a6b42f254.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Chạm X Sao</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/9/2/c/4/92c43cf086d1581f3f89994682792461.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Chạm X Bạn</div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="radio-list-item-layout">
+                                    <p class="content1"><a href="#">Khám phá Podcast</a></p>
+                                    <div class="discover">
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/e/f/d/8/efd80981d2f436c6a14c1bfa008eba7d.jpg"  alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">The Finding Audio</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/f/0/4/a/f04a174e90f4feae62f453225c81bd23.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Oddly Normal</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/b/f/5/e/bf5e5928eeb90bdb47530e8721100d09.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Amateur Psychology - Tay mơ học đời bằng Tâm lý học </div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/d/7/d/6/d7d61e61dc99044c40d48a90422896e7.jpg" alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Hà Nội FM</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/6/7/e/7/67e7397cb8d3b9dc75b4e0ea1e2988d1.jpg" alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Ghi Đông Radio</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="radio-list-item-layout">
+                                    <div class="discover">
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/a/8/a/a/a8aa7126c1f1e49367efd6f3d2d0c2f5.jpg"  alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Trạm Radio</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/d/6/b/7/d6b78566552f64478b5fa9e8868750a9.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Chàng-Ngốc-Già</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/a/e/d/b/aedb2863207b2a273ed8891e2bb0f8c2.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Lam's Story</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/d/5/d/0/d5d02fc15742f3aa7ed22f3f5135cc1c.jpg" alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Luyện Nghe Tiếng Anh Hàng Ngày - Ms Thuỷ KISS English</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/cover/1/c/4/e/1c4e8d264c0d25bb37feddf6ecc4b0a5.jpg" alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Career Success | Take Away Series</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="radio-list-item-layout">
+                                    <div class="discover">
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/1/4/b/0/14b04565af8a827abc7a3620c31d2c97.jpg"  alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Nằm nghe đọc truyện - Hathaya Audio</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/1/6/c/0/16c07d59dfac4509763b552c73be0205.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Cạn Ly</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/6/9/9/3/699385ce5b183bfb73020d2691a87868.jpg" alt="" class="imgradio" >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Nghe Lỏm</div>
+                                        </div>
+                                        <div class="radio-list-item-layout-ingredient">
+                                            <div class="radio-action">
+                                                <img src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_jpeg/avatars/6/a/a/6/6aa6589cafcd455994938590f8886920.jpg" alt="" class="imgradio " >
+                                                <div class="action-radio">
+                                                    <i class="far fa-play-circle"></i>
+                                                </div>
+                                                <div class="action-radio-heart">
+                                                    <i class="far fa-heart"></i>
+                                                </div>
+                                                <div class="action-radio-bacham">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </div>
+                                            </div>
+                                            <div class="radio-name-content">Tóm Tắt Sách Cùng Tanya</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <div class="playlist-header is-flex">
+                    <h3 class="playlist-heading is-flex">
+                        <span>Bài Hát</span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </h3>
+                    <div class="playlist-header-right is-flex">
+                        <button class="btn-upload hide-on-mobile is-flex">
+                            <i class="ri-upload-line"></i>
+                            <span>TẢI LÊN</span>
+                        </button>
+                        <button class="btn-play-all is-flex">
+                            <i class="ri-play-fill"></i>
+                            <span>PHÁT TẤT CẢ</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="playlist-body">
+                    <div class="playlist-body-left hide-on-800">
+                        <div class="cd-playlist">
+                            <img src="../assets/img/home/icon-playing.gif" alt="" class="cd-gif">
+                            <img src="../assets/img/home/music.jpg" alt="" class="cd-player">
+                        </div>
+                    </div>
+
+                    <div class="songs-list">
+
+                        <div class="song is-flex">
+                            <div class="song-left is-flex">
+                                <div class="thumb">
+                                    <i class="ri-play-fill icon-song-play"></i>
+                                    <img src="../assets/img/home/icon-playing.gif" alt="" class="gif-playing">
+                                </div>
+                                <div class="song-body">
+                                    <h3 class="song-name">Tên Bài hát</h3>
+                                    <p class="song-singer">Tên ca sĩ</p>
+                                </div>
+                            </div>
+                            <div class="time-total">
+                                <span>00:00</span>
+                            </div>
+                            <div class="song-option">
+                                <i class="ri-heart-3-fill icon-heart"></i>
+                                <i class="ri-more-fill"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="song is-flex">
+                            <div class="song-left is-flex">
+                                <div class="thumb">
+                                    <i class="ri-play-fill icon-song-play"></i>
+                                    <img src="../assets/img/home/icon-playing.gif" alt="" class="gif-playing">
+                                </div>
+                                <div class="song-body">
+                                    <h3 class="song-name">Tên Bài hát</h3>
+                                    <p class="song-singer">Tên ca sĩ</p>
+                                </div>
+                            </div>
+                            <div class="time-total">
+                                <span>00:00</span>
+                            </div>
+                            <div class="song-option">
+                                <i class="ri-heart-3-fill icon-heart"></i>
+                                <i class="ri-more-fill"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="control">
+            <div class="control-left">
+                <div class="cd">
+                    <img src="" alt="" class="cd-img">
+                    <div class="nodes-list">
+                        <span class="cd-node node-1">♫</span>
+                        <span class="cd-node node-2">♪</span>
+                        <span class="cd-node node-3">♭</span>
+                        <span class="cd-node node-4">♫</span>
+                        <span class="cd-node node-5">♪</span>
+                        <span class="cd-node node-6">♭</span>
+
+                    </div>
+                </div>
+                <div class="cd-info">
+                    <!-- <marquee width="100%" direction="left" behavior="scroll" scrolldelay="160"> -->
+                    <p class="cd-name"></p>
+                    <!-- </marquee> -->
+                    <p class="cd-singer"></p>
+                </div>
+            </div>
+            <div class="control-center">
+                <div class="btn-control-list">
+                    <div class="btn btn-hover btn-random hide-on-mobile ">
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <div class="btn btn-hover btn-prev hide-on-mobile ">
+                        <i class="fas fa-step-backward"></i>
+                    </div>
+                    <div class="btn btn-play">
+                        <i class="far fa-play-circle icon-play"></i>
+                        <i class="far fa-pause-circle icon-pause"></i>
+                    </div>
+                    <div class="btn btn-hover btn-next">
+                        <i class="fas fa-step-forward"></i>
+                    </div>
+                    <div class="btn btn-hover btn-repeat hide-on-mobile ">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <span class="time-left hide-on-mobile">00:00</span>
+                    <div class="progress-line">
+                        <input id="progress" class="progress" type="range" value="0" step="0.1" min="0" max="100">
+                        <div class="line-first"></div>
+                        <div class="line-current"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <span class="time-right hide-on-mobile">00:00</span>
+                </div>
+                <audio id="audio" src=""></audio>
+            </div>
+
+            <div class="control-right hide-on-mobile is-flex">
+                <i class="fab fa-youtube"></i>
+                <i class="fas fa-microphone-alt"></i>
+                <div class="volume is-flex">
+                    <div class="volume-icon">
+                        <i class="fas fa-volume-mute icon-volume-mute"></i>
+                        <i class="fas fa-volume-up icon-volume-up active"></i>
+                    </div>
+                    <div class="progress-volume-bar">
+                        <input id="progress-volume" class="progress-volume" type="range" value="100" step="1" min="0"
+                            max="100">
+                        <div class="line-volume"></div>
+                        <div class="line-volume-current"></div>
+                        <div class="circle-volume"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-on-mobile">
+            <div class="player-on-mobile">
+                <div class="control-top">
+                    <div class="dashboard-on-mobile">
+                        <i class="ri-arrow-down-s-line mobile-icon-hide"></i>
+                        <header>
+                            <h4>Now playing:</h4>
+                            <h2 class="heading-on-mobile">String 57th & 9th</h2>
+                        </header>
+                    </div>
+
+                    <div class="cd-on-mobile">
+                        <div class="cd-thumb-on-mobile" style="background-image: url('./assets/img/masew.jpg')">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="control-bottom">
+                    <div class="progress-bar">
+                        <span class="time-left">00:00</span>
+                        <div class="progress-line">
+                            <input id="progress" class="progress" type="range" value="0" step="0.1" min="0" max="100">
+                            <div class="line-first"></div>
+                            <div class="line-current"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <span class="time-right">00:00</span>
+                    </div>
+
+                    <div class="btn-control-list">
+                        <div class="btn btn-hover btn-random">
+                            <i class="fas fa-random"></i>
+                        </div>
+                        <div class="btn btn-hover btn-prev">
+                            <i class="fas fa-step-backward"></i>
+                        </div>
+                        <div class="btn btn-play">
+                            <i class="far fa-play-circle icon-play"></i>
+                            <i class="far fa-pause-circle icon-pause"></i>
+                        </div>
+                        <div class="btn btn-hover btn-next">
+                            <i class="fas fa-step-forward"></i>
+                        </div>
+                        <div class="btn btn-hover btn-repeat">
+                            <i class="fas fa-redo"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <audio id="audio-fake" src=""></audio>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

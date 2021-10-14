@@ -1,0 +1,157 @@
+@media (max-width: 75rem) {
+    .time-total {
+        left: 70%;
+    }
+    
+}
+
+/* tablet and mobile */
+@media (max-width: 64rem) {
+    .hide-on-t-m {
+        display: none !important;
+    }
+    .sidebar {
+        width: 70px;
+    }
+    .sidebar-logo {
+        text-align: center;
+        padding: 0;
+    }
+
+    .logo-img-t-m {
+        display: inline-block;
+    }
+
+    .nav-item {
+        justify-content: center;
+        padding: 16px 20px;
+    }
+
+    .nav-item .nav-item-icon {
+        margin-right: 0;
+    }
+
+    .header {
+        left: 70px;
+    }
+}
+
+@media (max-width: 50rem) {
+    .hide-on-800 {
+        display: none !important;
+    }
+
+    .header-search {
+        width: 300px;
+    }
+}
+
+/* mobile */
+@media (max-width: 43.75rem) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+    .header {
+        left: 0;
+        padding: 0 8px;
+    }
+
+    .header-search {
+        width: 40%;
+    }
+
+    .player {
+        padding: 0px 8px;
+    }
+    
+    .playlist {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .playlist-header-right button {
+        margin-right: 0;
+    }
+
+    .playlist-heading {
+        font-size: 16px;
+    }
+
+    .playlist-heading i {
+        font-size: 16;
+        margin-left: 0;
+    }
+
+    .song-name {
+        max-width: 170px;
+    }
+
+    .songs-list {
+        height: calc(100vh - 415px);
+        margin-bottom: 70px;
+    }
+
+    /* CONTROL */
+    .control {
+        /* position: relative; */
+        height: 70px;
+        padding: 0 16px;
+    }
+
+    .cd-img, .cd {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .cd-img {
+        cursor: pointer;
+    }
+
+    .cd-name {
+        max-width: 150px;
+    }
+
+    .control-left {
+        flex-basis: 70%;
+    }
+
+    .progress-bar {
+        position: fixed;
+        bottom: 69px;
+        left: 0;
+        right: 0;
+    }
+    
+    .progress-line {
+        margin: 0;
+    }
+
+    .control-on-mobile {
+        display: inline-block;
+    }
+
+    .control-on-mobile.active .progress-bar {
+        position: initial;
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .control-on-mobile.active .progress-line {
+        margin: 0 10px;
+    }  
+
+    .control-on-mobile.active .icon-play, 
+    .control-on-mobile.active .icon-pause {
+        font-size: 50px !important;
+    }
+
+    .control-on-mobile.active .btn i {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 21.25rem) {
+    .control {
+        padding: 0;
+    }
+}
