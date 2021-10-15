@@ -1,0 +1,265 @@
+.icon-user {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-profile {
+    padding-top: 85px;
+    text-align: center;
+    position: relative;
+}
+
+.user-img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.user-name {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 12px;
+}
+
+.user-profile-right {
+    position: absolute;
+    top: 85px;
+    right: 0;
+}
+
+.user-profile-right a:not(:last-child) {
+    margin-right: 12px;
+}
+
+.user-buy-vip,
+.user-import-vip {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.user-buy-vip {
+    background-color: #f8e71c;
+    color: #32323d;
+}
+
+.user-import-vip {
+    background-color: var(--alpha-bg);
+    color: var(--navigation-text);
+}   
+
+.user-more {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    border-radius: 50%;
+    background-color: var(--alpha-bg);
+    color: var(--navigation-text);
+    text-decoration: none;
+}
+
+.user-buy-vip:hover,
+.user-import-vip:hover,
+.user-more:hover {
+    opacity: 0.8;
+}
+
+.playlist {
+    padding: 0 32px;
+    padding-top: 24px;
+}
+
+.playlist-header {
+    justify-content: space-between;
+}
+
+.playlist-heading {
+    color: #fff;
+    font-size: 20px;
+}
+
+.playlist-heading i {
+    margin-left: 8px;
+    font-size: 24px;
+}
+
+.playlist-header-right button {
+    padding: 7px 14px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-right: 12px;
+    cursor: pointer;
+    color: #dadada;
+}
+
+.playlist-header-right button:hover {
+    opacity: 0.7;
+}
+
+.playlist-header-right button i {
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+.btn-upload {
+    background-color: var(--alpha-bg);
+}
+
+.btn-play-all {
+    background-color: var( --color-purple);
+}
+
+.playlist-body {
+    padding-top: 32px;
+    display: flex;
+}
+
+.playlist-body-left {
+    position: relative;
+    width: 250px;
+}
+
+.cd-player {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.cd-playlist {
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+
+.cd-gif {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.is-playing .cd-gif {
+    display: inline-block;
+}
+
+/* +=========================SONG LIST======================== */
+.songs-list {
+    flex: 1;
+    overflow-y: auto;
+    height: 300px;
+}
+
+.song {
+    justify-content: space-between;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.song.active {
+    background-color: var(--alpha-bg);
+}
+
+.song:hover {
+    background-color: #27202e;
+}
+
+.song.active .icon-song-play {
+    display: inline-block;
+}
+
+.song-left {
+    width: 275px;
+}
+
+.is-playing .song.active .icon-song-play {
+    display: none;
+}
+
+.is-playing .song.active .gif-playing {
+    display: inline-block;
+}
+
+.thumb {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-size: cover;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.icon-song-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+    display: none;
+}
+
+.song:hover .icon-song-play {
+    display: block;
+}
+
+.gif-playing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    color: #fff;
+    display: none;
+}
+
+.song-body {
+
+}
+
+.song-name {
+    color: #dadada;
+    margin-bottom: 4px;
+    max-width: 220px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* max-width: 100%; */
+}
+
+.song-singer {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.time-total {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+.time-total span{
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.song-option i{
+    color: var(--text-secondary);
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.icon-heart {
+    color: var(--color-purple) !important;
+}

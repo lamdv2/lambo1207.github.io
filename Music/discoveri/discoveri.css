@@ -617,20 +617,195 @@ a{
 
 .user-profile{
     margin-bottom: 120px;
-    padding: 36px;
+    padding: 30px;
 }
 
 .head-dicover{
     display: flex;
+    /* margin: 30px 30px 0px; */
+}
+
+.all-head-discover{
+    width: 33.33333%;
+    padding: 20px;
 }
 
 .head-imgdiscover{
-    width: 95%;
-    height: 60%;
-    margin-top: 100px;
-    margin-right: 30px;
+    width: 100%;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+/* radio-list-item-layout */
+
+.radio-list-item-layout{
+    margin-top: 30px;
+}
+
+.radio-list-item-layout-ingredient{
+    padding: 0 12px;
+}
+
+.radio-name-content{
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.28;
+    color: #fff;
+    padding: 0 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.discover{
+    width: 16.66667%;
+    width: 100%;
+    height: 1%;
+    margin-bottom: 60px;
+}
+.content2{
+    align-items: center;
+    display: flex;
+    text-align: left;
+    border-radius: 5px;
+    padding-left: 22px;
+}
+.content2 a:hover{
+   color: #7200a1;
+}
+.content2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: block;
+}
+
+.radio-media-content{
+}
+
+.radio-media-left{
+    padding-left: 22px;
+    margin-right: 10px;
+}
+
+.radio-media-image {
+    border-radius: 4px;
+
+    /* display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    flex-shrink: 0; */
+}
+
+.radio-media-image figure {
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.is-50x50 {
+    width: 50px;
+    height: 50px;
+}
+
+.radio-media-content{
+
+}
+
+.radio-subtitle{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-top: 10px;
+}
+
+.radio-media-content .title{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px 0 0;
+    color: #fff;
+}
+
+.radio-list-item-layout-ingredient .imgradio{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.imgradio{
     border-radius: 20px;
 }
+.radio-list-item-layout-ingredient{
+    width: 20%;
+    margin-top: 10px;
+}
+
+.radio-action{
+    position: relative;
+    display: flex;
+}
+
+.radio-action:hover .imgradio{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.radio-action .action-radio{
+}
+
+.radio-action:hover .action-radio,
+.radio-action:hover .action-radio-bacham,
+.radio-action:hover .action-radio-heart{
+    display: block;
+    opacity: 1 !important;
+}
+
+.radio-action .action-radio{
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+
+.radio-action .action-radio-heart{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 20%;
+    display: none;
+}
+
+.radio-action .action-radio-bacham{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 80%;
+    display: none;
+}
+
+.radio-action .action-radio-bacham .fas{
+    font-size: 120%;
+}
+
+.radio-action .action-radio-heart .far{
+    font-size: 160%;
+}
+
+.radio-action .action-radio .far{
+    font-size: 300%;
+}
+
+/* end radio-list-item-layout */
+
 .discover{
     display: flex;
     width: 100%;
@@ -640,9 +815,8 @@ a{
 .content1{
     width: 500px;
     height: 30px;
-    margin-top: 35px;
+    /* margin-top: 35px; */
     padding-left: 20px;
-    
 }
 .content1 a:hover{
    color: #7200a1;
@@ -678,16 +852,14 @@ a{
     padding: 10px;
 }
 .radio-anh{
-    width: 50%;
+    width: 100%;
+    padding: 22px;
 }
 .anh .imgdiscover:hover{
     transform: scale(1.1);
 }
 .content-radio{
-    width: 500px;
-    height: 30px;
-    margin-top:10%;
-    margin-bottom: 2%;
+    margin-left: 22px;
 }
 .content-radio a{
     text-decoration: none;
@@ -702,12 +874,11 @@ a{
 .all-radio{
     display: flex;
     width: 100%;
-    margin-top: 30px;
     height: 10%;
 }
 .radio{
     border-radius: 500px ;
-    width: 150%;
+    width: 100%;
     overflow: hidden;
     transition: 0.5s ease;
     border-top: 5px solid #cc0000;
@@ -722,23 +893,24 @@ a{
     font-size: 13px;
     font-weight: 700;
     line-height: 20px;
-   margin-left: 16%;
-   text-decoration: none;
-   font-weight: 800;
+    text-decoration: none;
+    font-weight: 800;
   
 }
 .radio-name{
     margin-top: 5%;
+    text-align: center;
+}
 
+.radio-view {
+    text-align: center;
 }
 .radio-view a{
     color: #fff;
     font-size: 12px;
     font-weight: 400;
     text-decoration: none;
-    margin-left: 14%;
     opacity: 0.2;
-
 }
 .name-content:hover{
     color: #5f4de6;
@@ -758,21 +930,27 @@ a{
 }
 .name-musician{
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
 }
 .name-musician a{
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     text-decoration: none;
-    /* margin: 10px 0 30px 0; */
+    opacity: .8;
+    white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
-    
+    display: block;
 }
 .mood{
     display: flex;
     width: 100%;
-    margin-top: 10px;
+    padding: 20px;
 }
 .mod-img{
     width: 25%;
@@ -788,38 +966,36 @@ a{
     border-radius: 15px;
 }
 .all-bieudo{
-   width: 100%;
    border-radius: 18px;
    display: flex;
-
+   margin: 0 16px;
+   background-image: linear-gradient(to right bottom, #5f4de6,#bc69d9);;
+   opacity: .95;
 }
 .bieudo{
-    margin-top: 5%;
-    width: 80%;
+    width: 70%;
     height: 500px;
-   padding-left: 30px;
-    
+    padding-left: 30px;
 }
 .bieudo-img{
-    width: 30%;
-    margin-top: 9%;
-    
+    margin-top: 4%;
+    padding: 10px 0 0 30px;
 }
 .bieudo-img-box{
-    width: 110%;
+    width: 100%;
     height: 15%;
     display: flex;
     border-radius: 5px;
     margin-bottom: 20px;
-    background-color: #373041;
+    background-color: rgba(189, 189, 189, 0.2);
 }
 .bieudo-img-box:hover{
     opacity: 0,5;
-    background-color:rgba(117, 20, 20, 0.1);
+    background-color:rgba(214, 209, 209, 0.4);
 }
 .bieudo-text{
+    /* width: 20%; */
     text-align: center;
-    min-width: 0;
     font-size: 40px;
     font-weight:bolder ;
     line-height: 1;
@@ -832,15 +1008,18 @@ a{
 }
 .bieudo-text2{
     color: #fff;
-    padding-top: 4%;
+    padding-top: 10px;
     text-align: left;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
 }
 .bieudo-img-anh{
-    width: 100px;
-    height: 90px;
-    padding: 10px 10px 30px 10px;
+    padding: 10px;
+    border-radius: 16px;
 }
 .bieudo-text3{
     color:white;
@@ -850,6 +1029,7 @@ a{
 }
 .bieudo-text24{
     line-height: 1.4;
+    width: 40%;
 }
 .bieudo-text4{
     text-decoration: none;
@@ -872,7 +1052,8 @@ a{
     background-color: #4a90e2;
 }
 .content-bieudo{
-    padding-top: -3%;
+    padding: 20px;
+    margin-top: 20px; 
 }
 .content-bieudo a{
     text-decoration: none;
@@ -899,7 +1080,7 @@ a{
 .upcoming{
     display: flex;
     width: 100%;
-    margin-top: 10px;
+    padding: 20px;
 }
 .up{
     width: 33,33%;
@@ -956,9 +1137,7 @@ a{
 .content-NS{
     width: 500px;
     height: 30px;
-    margin-top: 20px;
-    padding-left: 10px;
-    margin-bottom: -10px;
+    margin: 20px 0 -10px 20px;
 }
 .content-NS a{
     text-decoration: none;
@@ -1004,7 +1183,6 @@ a{
     margin-left: 2%;
     padding: 12px;
     border-radius: 20px;
-    height: 150px;
 }
 .Spread-text1{
     padding-top: 12px;
@@ -1032,14 +1210,14 @@ a{
     white-space: nowrap;
     -webkit-text-stroke: 1px rgba(0,0,0, 0.8);
     opacity: 1;
-    padding-top: 50px;
-    
 }
 .Spread-text34{
     display: flex;
+    margin-top: 40%;
+    margin-bottom: 10px;
 }
 .Spread-text4{
-    padding-top: 73px;
+    padding-top: 22px;
     padding-left: 10px;
     
 }
@@ -1060,9 +1238,10 @@ a{
    background-color: #373041;
 }
 .Spread-content-img{
-    width: 15%;
+    width: 20%;
     
 }
+
 .Sp-all-text{
     padding-left: 20px;
     padding-top: 1px;

@@ -524,7 +524,7 @@ a{
 .player {
     flex: 1;
     background-color: #170f23;
-    width: 80%;
+    width: 85%;
     margin-left: 15%;
 }   
 
@@ -807,11 +807,16 @@ img, video {
 }
 
 .radio-name-content{
-    font-size: 15px;
+    margin-top: 4px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 1.28;
     color: #fff;
     padding: 0 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
 }
 
 .discover{
@@ -1109,7 +1114,6 @@ img, video {
     width: 26px;
     background-color: var(--text-secondaryy);
     position: absolute;
-    z-index: 1;
     top: 0%;
     bottom: 0;
     right: 0;
