@@ -105,6 +105,10 @@ a{
     font-size: 18px;
 }
 
+.nav-item li:active .nav-item-profile{
+    color: red;
+}
+
 .tag{
     line-height: 0;
     margin-left: 8px;
