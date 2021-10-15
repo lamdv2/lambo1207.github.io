@@ -887,10 +887,7 @@ img, video {
 .radio-list-item-layout-ingredient .imgradio{
     width: 100%;
     height: 100%;
-    margin-right: 0px;
-    margin-top: -15px;
     padding: 10px;
-
 }
 .imgradio{
     border-radius: 20px;
@@ -902,11 +899,15 @@ img, video {
 
 .radio-action{
     position: relative;
+    display: flex;
 }
 
 .radio-action:hover .imgradio{
     cursor: pointer;
     opacity: 0.6;
+}
+
+.radio-action .action-radio{
 }
 
 .radio-action:hover .action-radio,
@@ -919,52 +920,40 @@ img, video {
 .radio-action .action-radio{
     position: absolute;
     color: #fff;
-    top: 46%;
     transform: translate(-50%,-50%);
-    left: 88%;
+    top: 50%;
+    left: 50%;
     display: none;
 }
 
 .radio-action .action-radio-heart{
     position: absolute;
     color: #fff;
-    top: 46%;
+    top: 50%;
     transform: translate(-50%,-50%);
-    left: 62%;
+    left: 20%;
     display: none;
 }
 
 .radio-action .action-radio-bacham{
     position: absolute;
     color: #fff;
-    top: 46%;
+    top: 50%;
     transform: translate(-50%,-50%);
-    left: 78%;
+    left: 80%;
     display: none;
 }
 
-.radio-action .action-radio-bacham .far{
-    line-height: 32px;
-    font-size: 160%;
-    font-weight: 100;
-    width: 222px;
-    height: 32px;
+.radio-action .action-radio-bacham .fas{
+    font-size: 120%;
 }
 
 .radio-action .action-radio-heart .far{
-    line-height: 32px;
     font-size: 160%;
-    font-weight: 100;
-    width: 222px;
-    height: 32px;
 }
 
 .radio-action .action-radio .far{
-    line-height: 32px;
     font-size: 300%;
-    font-weight: 100;
-    width: 222px;
-    height: 32px;
 }
 
 /*---------end Radio------- */
