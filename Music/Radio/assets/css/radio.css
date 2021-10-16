@@ -645,7 +645,7 @@ a{
 .user-profile-right {
     position: absolute;
     top: 85px;
-    right: 0;
+    right: 24px;
 }
 
 .user-profile-right a:not(:last-child) {
@@ -659,6 +659,8 @@ a{
     border-radius: 30px;
     text-decoration: none;
     font-size: 13px;
+    line-height: 24px;
+    min-width: 140px;
 }
 
 .user-buy-vip {
