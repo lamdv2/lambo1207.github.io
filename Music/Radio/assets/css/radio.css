@@ -794,7 +794,7 @@ a{
     text-align: left;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    /* white-space: nowrap; */
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
@@ -802,6 +802,8 @@ a{
 .bieudo-img-anh{
     padding: 10px;
     border-radius: 16px;
+    object-fit: contain;
+    width: 28%;
 }
 .bieudo-text3{
     color:white;
@@ -848,12 +850,20 @@ a{
     color: white;
    
 }
+
+.all-bieudo:hover .post1{
+    opacity: 1;
+}
+
 .post1{
     fill:White;
     stroke:red; 
     stroke-width:2;
     /* display: none; */
+    opacity: 0;
 }
+
+
 
 .header-left {
     display: flex;
