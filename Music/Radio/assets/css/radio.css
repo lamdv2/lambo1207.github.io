@@ -79,7 +79,7 @@ a{
     display: none;
 }
 
-.nav-item.radio {
+#onclickCaNhan {
     color: var(--text-primary);
     background-color: var(--alpha-bg);
     border-left: 2px solid var(--color-purple);
@@ -182,6 +182,7 @@ a{
 
 .control {
     position: fixed;
+    z-index: 100;
     bottom: 0;
     left: 0;
     right: 0;
@@ -617,9 +618,477 @@ a{
     border-radius: 50%;
     cursor: pointer;
 }
+
+/* ---------CaNhan-------- */
+
+.user-canhan {
+    padding-bottom: 200px;
+}
+
+.user-profile-canhan {
+    padding-top: 85px;
+    text-align: center;
+    position: relative;
+}
+
+.user-img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.user-name {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 12px;
+}
+
+.user-profile-right {
+    position: absolute;
+    top: 85px;
+    right: 0;
+}
+
+.user-profile-right a:not(:last-child) {
+    margin-right: 12px;
+}
+
+.user-buy-vip,
+.user-import-vip {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.user-buy-vip {
+    background-color: #f8e71c;
+    color: #32323d;
+}
+
+.user-import-vip {
+    background-color: var(--alpha-bg);
+    color: var(--navigation-text);
+}   
+
+.user-more {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    border-radius: 50%;
+    background-color: var(--alpha-bg);
+    color: var(--navigation-text);
+    text-decoration: none;
+}
+
+.user-buy-vip:hover,
+.user-import-vip:hover,
+.user-more:hover {
+    opacity: 0.8;
+}
+
+/* -------End CaNhan----- */
+
+/* ------Kham Pha------ */
+
+.user-khampha{
+    margin-bottom: 40px;
+    padding: 30px;
+    display: none;
+}
+
+.head-dicover{
+    display: flex;
+    /* margin: 30px 30px 0px; */
+}
+
+.all-head-discover{
+    width: 33.33333%;
+    padding: 20px;
+}
+
+.head-imgdiscover{
+    width: 100%;
+    margin-top: -60px;
+    border-radius: 10px;
+}
+
+.name-musician{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: .5;
+    padding: 0 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.mood{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+.mod-img{
+    width: 25%;
+    margin-right: 25px;
+}
+.mod-img:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+.mood-img{
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.all-bieudo{
+   border-radius: 18px;
+   display: flex;
+   margin: 0 16px;
+   background-image: linear-gradient(to right bottom, #5f4de6,#bc69d9);;
+   opacity: .95;
+}
+.bieudo{
+    width: 70%;
+    height: 500px;
+    padding-left: 30px;
+}
+.bieudo-img{
+    margin-top: 4%;
+    padding: 10px 0 0 30px;
+}
+.bieudo-img-box{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(189, 189, 189, 0.2);
+}
+.bieudo-img-box:hover{
+    opacity: 0,5;
+    background-color:rgba(214, 209, 209, 0.4);
+}
+.bieudo-text{
+    /* width: 20%; */
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder ;
+    line-height: 1;
+    color: cyan;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+    -webkit-text-stroke: 1px #4a90e2;
+    opacity: 1;
+    padding: 15px 5px 14px 10px;
+}
+.bieudo-text2{
+    color: #fff;
+    padding-top: 10px;
+    text-align: left;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.bieudo-img-anh{
+    padding: 10px;
+    border-radius: 16px;
+}
+.bieudo-text3{
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 25px 10px 10px 10px;
+}
+.bieudo-text24{
+    line-height: 1.4;
+    width: 40%;
+}
+.bieudo-text4{
+    text-decoration: none;
+    color: white;
+    opacity: 0.2;
+    font-size: 13px;
+    
+}
+.bieudo-click{
+    background-color: #373041;
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+.bieudo-click:hover{
+    background-color: #4a90e2;
+}
+.content-bieudo{
+    padding: 20px;
+    margin-top: 20px; 
+}
+.content-bieudo a{
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+    font-size: 30px;
+    
+}
+.bieudo-text-but{
+    color: white;
+   
+}
+.post1{
+    fill:White;
+    stroke:red; 
+    stroke-width:2;
+    /* display: none; */
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.upcoming{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+.up{
+    width: 33,33%;
+    margin-right: 25px;
+}
+.up-img{
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+.up-img:hover{
+    opacity: 0.5;
+}
+.fan{
+    width: 100%;
+    height: 100%;
+    margin-left: 8px;
+    display: flex;
+}
+.fan-context{
+    color: white;
+    padding-left: 5px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.fan-box{
+    color: white;
+    margin-left: 30%;
+    background-color:#7200a1;
+    height: 15%;
+    margin-top: -19px;
+    padding: 10px;
+    line-height: 15px;
+    width: 35%;
+    text-align: center;
+    border-radius: 50px;
+}
+.fan-box:hover{
+    opacity: 0.5;
+}
+.img-fan{
+    width: 6%;
+    height: 6%;
+    border-radius: 50%;
+    padding-left: 1%;
+    margin-left: -7px;
+}
+.fan-view{
+    color: white;
+    padding-left: 7px;
+    opacity: 0.5;
+}
+.content-NS{
+    width: 500px;
+    height: 30px;
+    margin: 20px 0 -10px 20px;
+}
+.content-NS a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder  ;
+    color: #fff;
+    margin-top: 100px;
+    
+}
+.NS-img{
+    padding-left: 5px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+.NS-img:hover{
+    opacity: 0.5;
+}
+.Spread{
+    height: 100%;
+     width: 100%;
+     margin-bottom: 65px;
+    display: flex;
+    padding-bottom: 1%;
+    margin-top: 15px;
+}
+.Spread-box{
+    width: 33.33333%;    
+    background-color: #373041;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.Spread-box:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.Spread-img{
+    width: 50%;
+    margin-left: 2%;
+    padding: 12px;
+    border-radius: 20px;
+}
+.Spread-text1{
+    padding-top: 12px;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+.Spread-text2{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.Spread-text2:hover{
+    color: #5f4de6;
+}
+.Spread-text3{
+    text-align: center;
+    min-width: 0;
+    color: #373041;;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+    -webkit-text-stroke: 1px rgba(0,0,0, 0.8);
+    opacity: 1;
+}
+.Spread-text34{
+    display: flex;
+    margin-top: 40%;
+    margin-bottom: 10px;
+}
+.Spread-text4{
+    padding-top: 22px;
+    padding-left: 10px;
+    
+}
+.Spread-content{
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 1%;
+    display: flex;
+    margin-left: 12px;
+}
+.Spread-content1{
+    width: 33.33333%;
+    background-color: #170f23;
+   margin-right: 30px;
+   display: flex;
+}
+.Spread-content1:hover{
+   opacity: 0.5;
+   background-color: #373041;
+}
+.Spread-content-img{
+    width: 20%;
+    border-radius: 8px;
+}
+
+.Sp-all-text{
+    padding-left: 20px;
+    padding-top: 1px;
+    line-height: 20px;
+}
+.SP-text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.SP-text1 a{
+    text-decoration: none;
+    font-size: 13px;
+    opacity: 0.5;
+    color: white;
+}
+.support{
+    width: 100%;
+   margin-top: 90px;
+}
+.support-nap{
+    display: flex;
+    
+}
+.support-all-img{
+    background-color: white;
+    width: 12.5%;
+    height: 70px;
+   /* line-height: 140px; */
+   padding: 10px;
+   border-radius: 15px;
+   padding-top: 15px;
+   margin-right: 15px;
+}
+.support-img{
+    width: 100%;
+    height: 40px;
+    line-height: 50px;
+    text-align: center;
+
+}
+.support-text{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    opacity: 0.5;
+}
+.support-text:hover{
+    color: #660066;
+}
+.tangbottom{
+    margin-bottom: 65px;
+    padding-top: 1%;
+}
+
+/* ------End Kham Pha------ */
+
 /* User profile */
 
 .user-profile{
+    display: none;
 }
 
 .z-radio-home{
@@ -669,6 +1138,14 @@ a{
 .all-radio{
     display: flex;
     position: absolute;
+}
+
+.duoi-all-radio{
+    padding-top: 250px;
+}
+
+.discover-nhac{
+    margin-top: 50px;
 }
 
 .discover-item{
@@ -787,7 +1264,8 @@ img, video {
     font-size: 13px;
     font-weight: 400;
     text-decoration: none;
-    opacity: 0.6;
+    margin-top: -16px;
+    opacity: .8;
 }
 
 /* -------------Radio-list----------- */
@@ -804,6 +1282,10 @@ img, video {
 
 .radio-list-item-layout-ingredient{
     padding: 0 12px;
+}
+
+.khamphaPodcast{
+    margin-left: -22px;
 }
 
 .radio-name-content{
@@ -824,6 +1306,7 @@ img, video {
     width: 100%;
     height: 1%;
     margin-bottom: 60px;
+    margin-left: -22px;
 }
 .content1{
     align-items: center;
@@ -839,7 +1322,7 @@ img, video {
     text-decoration: none;
     font-size: 20px;
     color: #fff;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
     font-weight: 700;
     text-transform: capitalize;
     display: block;
@@ -850,7 +1333,6 @@ img, video {
 }
 
 .radio-media-left{
-    padding-left: 22px;
     margin-right: 10px;
 }
 
@@ -876,7 +1358,7 @@ img, video {
 }
 
 .radio-media-content{
-
+    margin-bottom: -16px;
 }
 
 .radio-subtitle{
@@ -887,7 +1369,7 @@ img, video {
 }
 
 .radio-media-content .title{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     margin: 5px 0 0;
     color: #fff;
@@ -1142,7 +1624,7 @@ img, video {
 .playlist {
     padding: 0 32px;
     padding-top: 24px;
-    display: none;
+    /* display: none; */
 }
 
 .playlist-header {
@@ -1210,10 +1692,11 @@ img, video {
 
 .cd-gif {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
+    width: 80px;
 }
 
 .is-playing .cd-gif {

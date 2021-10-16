@@ -57,199 +57,199 @@ const app = {
         {
             name: 'Trò Đùa',
             singer: 'Quang Đăng Trần x 4SunMusic',
-            path: './assets/song/Trò Đùa ( Lofi Ver ) - Quang Đăng Trần x 4SunMusic - Người luôn che chở em quan tâm em luôn là anh..mp3',
+            path: '../assets/song/Trò Đùa ( Lofi Ver ) - Quang Đăng Trần x 4SunMusic - Người luôn che chở em quan tâm em luôn là anh..mp3',
             image: 'https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/5/1/1/5/51152a170d660eaefadaf4b4d8b58892.jpg'
         },
         {
             name: 'Anh thương em nhất mà',
             singer: 'Lã. x Log x TiB',
-            path: './assets/song/Anh Thương Em Nhất Mà- - Lã. x Log x TiB「Official Lyrics Video」 .Chang.mp3',
+            path: '../assets/song/Anh Thương Em Nhất Mà- - Lã. x Log x TiB「Official Lyrics Video」 .Chang.mp3',
             image: 'https://theharmonica.vn/wp-content/uploads/2019/07/anh-thuong-em-nhat-ma.jpg'
         },
         {
             name: 'Vây Hãm',
             singer: 'Vương Tĩnh Văn Không Mập',
-            path: './assets/song/[Vietsub] Vây hãm - Vương Tĩnh Văn Không Mập -- 沦陷 - 王靖雯不胖.mp3',
-            image: './assets/img/home/vayham.jpg'
+            path: '../assets/song/[Vietsub] Vây hãm - Vương Tĩnh Văn Không Mập -- 沦陷 - 王靖雯不胖.mp3',
+            image: 'https://i.ytimg.com/vi/YWg3htRVc1A/maxresdefault.jpg'
         },
         {
             name: 'Yêu 5',
             singer: 'Rhymastic',
-            path: './assets/song/YÊU 5 - Rhymastic.mp3',
+            path: '../assets/song/YÊU 5 - Rhymastic.mp3',
             image: 'https://i.ytimg.com/vi/y576-ONm5II/sddefault.jpg'
         },
         {
             name: '24 Giờ',
             singer: 'Ly Ly',
-            path: './assets/song/24H - OFFICIAL MUSIC VIDEO - LYLY ft MAGAZINE.mp3',
+            path: '../assets/song/24H - OFFICIAL MUSIC VIDEO - LYLY ft MAGAZINE.mp3',
             image: 'https://i.ytimg.com/vi/gs-zxnVWPR8/sddefault.jpg'
         },
         {
             name: '3107 - 3',
             singer: 'Kai Cover',
-            path: './assets/song/3107-3 - W-n x Nâu x Duongg x Titie - Kai Cover.mp3',
+            path: '../assets/song/3107-3 - W-n x Nâu x Duongg x Titie - Kai Cover.mp3',
             image: 'https://i.ytimg.com/vi/kfw7MYah2n0/maxresdefault.jpg'
         },
         {
             name: 'Anh sẽ ổn thôi',
             singer: 'Vương Anh Tú',
-            path: './assets/song/ANH SẼ ỔN THÔI - VƯƠNG ANH TÚ - VIDEO LYRICS - NHẠC BUỒN NHẤT.mp3',
+            path: '../assets/song/ANH SẼ ỔN THÔI - VƯƠNG ANH TÚ - VIDEO LYRICS - NHẠC BUỒN NHẤT.mp3',
             image: 'https://avatar-ex-swe.nixcdn.com/song/2019/11/07/3/e/1/e/1573118065582_640.jpg'
         },
         {
             name: 'Bước qua mùa cô đơn',
             singer: 'Vũ',
-            path: './assets/song/Bước qua mùa cô đơn - Vũ. ( Nhat Anh Cover ).mp3',
+            path: '../assets/song/Bước qua mùa cô đơn - Vũ. ( Nhat Anh Cover ).mp3',
             image: 'https://i.ytimg.com/vi/_Lste0Plenw/maxresdefault.jpg'
         },
         {
             name: 'Cảm Ơn Tổn Thương',
             singer: 'Phạm Nguyên Ngọc',
-            path: './assets/song/Cảm Ơn Tổn Thương - Phạm Nguyên Ngọc「Lyrics Video」Meens.mp3',
+            path: '../assets/song/Cảm Ơn Tổn Thương - Phạm Nguyên Ngọc「Lyrics Video」Meens.mp3',
             image: 'https://nhachay.vn/wp-content/uploads/2020/08/loi-bai-hat-cam-on-ton-thuong-pham-nguyen-ngoc-lyrics-kem-hop-am.jpg'
         },
         {
             name: 'Chắc Ai Đó Sẽ Về',
             singer: 'Sơn Tùng M-TP',
-            path: './assets/song/Sơn Tùng M-TP - Chắc Ai Đó Sẽ Về.mp3',
+            path: '../assets/song/Sơn Tùng M-TP - Chắc Ai Đó Sẽ Về.mp3',
             image: 'http://imgs.vietnamnet.vn/Images/vnn/2014/12/18/08/20141218082625-a.jpg'
         },
         {
             name: 'Có chàng trai viết lên cây',
             singer: 'Ngô Lan Hương',
-            path: './assets/song/CÓ CHÀNG TRAI VIẾT LÊN CÂY - PHAN MẠNH QUỲNH _ NGÔ LAN HƯƠNG COVER.mp3',
+            path: '../assets/song/CÓ CHÀNG TRAI VIẾT LÊN CÂY - PHAN MẠNH QUỲNH _ NGÔ LAN HƯƠNG COVER.mp3',
             image: 'https://avatar-ex-swe.nixcdn.com/song/2019/12/23/1/5/0/5/1577070200907_640.jpg'
         },
         {
             name: 'Có hẹn với thanh xuân',
             singer: 'Kai Cover',
-            path: './assets/song/Có Hẹn Với Thanh Xuân ( Monstar ) - Kai Cover.mp3',
+            path: '../assets/song/Có Hẹn Với Thanh Xuân ( Monstar ) - Kai Cover.mp3',
             image: 'https://kenh14cdn.com/zoom/320_200/203336854389633024/2021/7/20/photo1626748139442-16267481396521029003719.jpg'
         },
         {
             name: 'Còn gì đau hơn chữ đã từng',
             singer: 'Quân AP',
-            path: './assets/song/QUÂN A.P - Còn Gì Đau Hơn Chữ Đã Từng - Lyrics Audio.mp3',
+            path: '../assets/song/QUÂN A.P - Còn Gì Đau Hơn Chữ Đã Từng - Lyrics Audio.mp3',
             image: 'https://photo-baomoi.zadn.vn/w720x480/2019_10_14_541_32550117/40157e1bd25b3b05624a.jpg'
         },
         {
             name: 'Cứ Chill Thôi',
             singer: 'Anh Khoa Cover',
-            path: './assets/song/Cứ Chill Thôi - Chillies ft Suni Hạ Linh . Rhymastic - Anh Khoa Cover ( Lyrics).mp3',
+            path: '../assets/song/Cứ Chill Thôi - Chillies ft Suni Hạ Linh . Rhymastic - Anh Khoa Cover ( Lyrics).mp3',
             image: 'https://avatar-nct.nixcdn.com/mv/2020/07/23/8/1/2/d/1595472126333_640.jpg'
         },
         {
             name: 'Cưới thôi',
             singer: 'Bray-Masew',
-            path: './assets/song/Cưới Thôi - Masew x Masiu x B Ray x TAP ( Lyrics Audio ).mp3',
+            path: '../assets/song/Cưới Thôi - Masew x Masiu x B Ray x TAP ( Lyrics Audio ).mp3',
             image: 'https://data.chiasenhac.com/data/cover/145/144624.jpg'
         },
         {
             name: 'Chờ em trong đêm',
             singer: 'Chu Duyên Bún',
-            path: './assets/song/Chờ em trong đêm.mp3',
+            path: '../assets/song/Chờ em trong đêm.mp3',
             image: 'https://i.ytimg.com/vi/sfC_EscgtWI/mqdefault.jpg'
         },
         {
             name: 'Chuyện của mùa đông ❄️',
             singer: '',
-            path: './assets/song/Chuyện của mùa đông ❄️ Tiến Thành.mp3',
+            path: '../assets/song/Chuyện của mùa đông ❄️ Tiến Thành.mp3',
             image: 'https://i1.sndcdn.com/artworks-000073569718-h3gzi2-t500x500.jpg'
         },
         {
             name: 'Đông kiếm em',
             singer: 'Vũ',
-            path: './assets/song/ĐÔNG KIẾM EM - Vũ. (Original).mp3',
+            path: '../assets/song/ĐÔNG KIẾM EM - Vũ. (Original).mp3',
             image: 'https://photo-resize-zmp3.zadn.vn/w360_r1x1_jpeg/avatars/b/a/d/2/bad27197c6774fc04c039c040ed8813c.jpg'
         },
         {
             name: 'Em Ổn Không',
             singer: 'Trịnh Thiên Ân x ViruSs x Láo Soái Nhi',
-            path: './assets/song/Em Ổn Không - Trịnh Thiên Ân x ViruSs x Láo Soái Nhi「Lyrics Video」.mp3',
+            path: '../assets/song/Em Ổn Không - Trịnh Thiên Ân x ViruSs x Láo Soái Nhi「Lyrics Video」.mp3',
             image: 'https://avatar-ex-swe.nixcdn.com/song/2018/03/03/7/1/d/1/1520083907163_640.jpg'
         },
         {
             name: 'Exs Hate Me',
             singer: 'B Ray x Masew (Ft AMEE)',
-            path: './assets/song/Ex Hate Me - B Ray x Masew (Ft AMEE) - Official MV.mp3',
+            path: '../assets/song/Ex Hate Me - B Ray x Masew (Ft AMEE) - Official MV.mp3',
             image: 'https://avatar-ex-swe.nixcdn.com/song/share/2019/02/13/7/f/2/1/1550063180850.jpg'
         },
         {
             name: 'Kẻ Theo Đuổi Ánh Sáng',
             singer: 'Huy Vạc x Tiến Nguyễn',
-            path: './assets/song/Kẻ Theo Đuổi Ánh Sáng - Huy Vạc x Tiến Nguyễn (Official MV).mp3',
+            path: '../assets/song/Kẻ Theo Đuổi Ánh Sáng - Huy Vạc x Tiến Nguyễn (Official MV).mp3',
             image: 'https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/a/a/1/a/aa1aa9276ddda9f826aca495038b06db.jpg'
         },
         {
             name: 'Khi Em Lớn',
             singer: 'Orange x Hoàng Dũng',
-            path: './assets/song/KHI EM LỚN (FREXS x OC.A REMIX) HOT TREND TIKTOK - Orange x Hoàng Dũng - EM SẼ NGÃ ĐAU HƠN BÂY GIỜ.mp3',
+            path: '../assets/song/KHI EM LỚN (FREXS x OC.A REMIX) HOT TREND TIKTOK - Orange x Hoàng Dũng - EM SẼ NGÃ ĐAU HƠN BÂY GIỜ.mp3',
             image: 'https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/c/4/3/a/c43a3f7cc98ee9c62401edb8fb999b74.jpg'
         },
         {
             name: 'Lạ Lùng',
             singer: 'Vũ',
-            path: './assets/song/LẠ LÙNG - Vũ. (Original).mp3',
+            path: '../assets/song/LẠ LÙNG - Vũ. (Original).mp3',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Vu_monsoon2019.jpg/1200px-Vu_monsoon2019.jpg'
         },
         {
             name: 'Mãi Chẳng Thuộc Về Nhau',
             singer: 'Bozitt',
-            path: './assets/song/Mãi Chẳng Thuộc Về Nhau - Bozitt - MV Lyrics HD.mp3',
+            path: '../assets/song/Mãi Chẳng Thuộc Về Nhau - Bozitt - MV Lyrics HD.mp3',
             image: 'https://avatar-ex-swe.nixcdn.com/song/2019/10/08/0/3/2/0/1570506074184_640.jpg'
         },
         {
             name: 'Nàng Thơ (Lofi Ver.)',
             singer: 'Hoàng Dũng x Freak',
-            path: './assets/song/Nàng Thơ (Lofi Ver.) - Hoàng Dũng x Freak D.mp3',
+            path: '../assets/song/Nàng Thơ (Lofi Ver.) - Hoàng Dũng x Freak D.mp3',
             image: 'https://i.scdn.co/image/ab67616d0000b273248295fbbb32d0e4d71cc7ea'
         },
         {
             name: 'Năm ấy',
             singer: 'Đức Phúc ( Đỗ Hải Đăng Cover)',
-            path: './assets/song/Năm ấy - Đức Phúc ( Đỗ Hải Đăng Cover Lyrics ).mp3',
+            path: '../assets/song/Năm ấy - Đức Phúc ( Đỗ Hải Đăng Cover Lyrics ).mp3',
             image: 'https://avatar-ex-swe.nixcdn.com/song/2017/12/09/1/f/7/3/1512816233582_640.jpg'
         },
         {
             name: 'Quên anh trong từng cơn đau',
             singer: 'Chu Duyên Bún',
-            path: './assets/song/QUÊN ANH TRONG TỪNG CƠN ĐAU - CHU DUYÊN COVER GUITAR.wav',
+            path: '../assets/song/QUÊN ANH TRONG TỪNG CƠN ĐAU - CHU DUYÊN COVER GUITAR.wav',
             image: 'https://yt3.ggpht.com/ytc/AKedOLQHQ51IZGbKrr3QFXFXfpRNRcTAdXYBzyYliajriw=s900-c-k-c0x00ffffff-no-rj'
         },
         {
             name: 'Sao em lại tắt máy',
             singer: 'Phạm Nguyên Ngọc ft.Vanh',
-            path: './assets/song/Sao em lại tắt máy- - Phạm Nguyên Ngọc ft.Vanh.mp3',
+            path: '../assets/song/Sao em lại tắt máy- - Phạm Nguyên Ngọc ft.Vanh.mp3',
             image: 'https://i.ytimg.com/vi/yhP2loYscAc/maxresdefault.jpg'
         },
         
         {
             name: 'Suýt Nữa Thì',
             singer: 'ANDIEZ x BITIS HUNTER',
-            path: './assets/song/SUÝT NỮA THÌ - OFFICIAL OST - CHUYẾN ĐI CỦA THANH XUÂN - ANDIEZ x BITIS HUNTER - LYRIC VIDEO.mp3',
+            path: '../assets/song/SUÝT NỮA THÌ - OFFICIAL OST - CHUYẾN ĐI CỦA THANH XUÂN - ANDIEZ x BITIS HUNTER - LYRIC VIDEO.mp3',
             image: 'https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/c/2/4/7/c2475264a30999a45a3c8bcf0e5f090d.jpg'
         },
         {
             name: 'Thanh Xuân',
             singer: 'Da LAB',
-            path: './assets/song/Thanh Xuân - Da LAB (Official MV).mp3',
+            path: '../assets/song/Thanh Xuân - Da LAB (Official MV).mp3',
             image: 'https://avatar-ex-swe.nixcdn.com/song/2018/08/24/b/a/9/5/1535121377317_640.jpg'
         },
         {
             name: 'Thì Thôi',
             singer: 'Reddy x Freak',
-            path: './assets/song/Thì Thôi (Lofi Ver.) - Reddy x Freak D.mp3',
+            path: '../assets/song/Thì Thôi (Lofi Ver.) - Reddy x Freak D.mp3',
             image: 'https://chandat.net/testx/wp-content/uploads/2020/05/Reddy-Huu-Duy.jpg'
         },{
             name: 'Trái Tim Anh Cũng Biết Đau',
             singer: 'Cover by Mr. Siro',
-            path: './assets/song/Trái Tim Anh Cũng Biết Đau - Cover by Mr. Siro.mp3',
+            path: '../assets/song/Trái Tim Anh Cũng Biết Đau - Cover by Mr. Siro.mp3',
             image: 'https://chandat.net/testx/wp-content/uploads/2020/05/Reddy-Huu-Duy.jpg'
         },
         {
             name: 'Yêu Từ Đâu Mà Ra',
             singer: 'Lil ZPOET',
-            path: './assets/song/Yêu Từ Đâu Mà Ra - Lil ZPOET「Lyrics Video」Meens.mp3',
+            path: '../assets/song/Yêu Từ Đâu Mà Ra - Lil ZPOET「Lyrics Video」Meens.mp3',
             image: 'https://media-cdn.laodong.vn/storage/newsportal/2020/4/28/801714/Mvyeutudaumara.jpg?w=720&crop=auto&scale=both'
         }
     ],

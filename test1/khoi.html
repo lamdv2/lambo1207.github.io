@@ -1,81 +1,40 @@
-<div class="user-profile">
-    <video autoplay loop src="./assets/img/home/text.mp4" class="user-img"></video>
-    <h2 class="user-name">DreamTeam</h2>
-    <div class="user-profile-right hide-on-mobile is-flex">
-        <a href="" class="user-buy-vip">MUA VIP NGAY</a>
-        <a href="" class="user-import-vip">NHẬP CODE VIP</a>
-        <a href="" class="user-more"><i class="ri-more-fill"></i></a>
-    </div>
-</div>
-<div class="playlist">
-    <div class="playlist-header is-flex">
-        <h3 class="playlist-heading is-flex">
-            <span>Bài Hát</span>
-            <i class="ri-arrow-right-s-line"></i>
-        </h3>
-        <div class="playlist-header-right is-flex">
-            <button class="btn-upload hide-on-mobile is-flex">
-                <i class="ri-upload-line"></i>
-                <span>TẢI LÊN</span>
-            </button>
-            <button class="btn-play-all is-flex">
-                <i class="ri-play-fill"></i>
-                <span>PHÁT TẤT CẢ</span>
-            </button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        }
+
+        .hover__container {
+            margin: auto;
+            width: 50%;
+            height: 50%;
+            overflow: hidden;
+        }
+
+        .hover__container-img {
+            padding-top: 100%;
+            transition: transform 0.5s linear;
+        }
+
+        .hover__container-img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="hover__container">
+            <div class="hover__container-img" style="background: url('https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg') no-repeat center center / cover"></div>
         </div>
     </div>
-
-    <div class="playlist-body">
-        <div class="playlist-body-left hide-on-800">
-            <div class="cd-playlist">
-                <img src="./assets/img/home/icon-playing.gif" alt="" class="cd-gif">
-                <img src="./assets/img/home/music.jpg" alt="" class="cd-player">
-            </div>
-        </div>
-
-        <div class="songs-list">
-
-            <div class="song is-flex">
-                <div class="song-left is-flex">
-                    <div class="thumb">
-                        <i class="ri-play-fill icon-song-play"></i>
-                        <img src="./assets/img/home/icon-playing.gif" alt="" class="gif-playing">
-                    </div>
-                    <div class="song-body">
-                        <h3 class="song-name">Tên Bài hát</h3>
-                        <p class="song-singer">Tên ca sĩ</p>
-                    </div>
-                </div>
-                <div class="time-total">
-                    <span>00:00</span>
-                </div>
-                <div class="song-option">
-                    <i class="ri-heart-3-fill icon-heart"></i>
-                    <i class="ri-more-fill"></i>
-                </div>
-            </div>
-
-
-            <div class="song is-flex">
-                <div class="song-left is-flex">
-                    <div class="thumb">
-                        <i class="ri-play-fill icon-song-play"></i>
-                        <img src="./assets/img/home/icon-playing.gif" alt="" class="gif-playing">
-                    </div>
-                    <div class="song-body">
-                        <h3 class="song-name">Tên Bài hát</h3>
-                        <p class="song-singer">Tên ca sĩ</p>
-                    </div>
-                </div>
-                <div class="time-total">
-                    <span>00:00</span>
-                </div>
-                <div class="song-option">
-                    <i class="ri-heart-3-fill icon-heart"></i>
-                    <i class="ri-more-fill"></i>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
+</body>
+</html>
