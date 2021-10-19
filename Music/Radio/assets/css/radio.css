@@ -697,7 +697,7 @@ a{
 
 .user-khampha{
     margin-bottom: 40px;
-    padding: 30px;
+    padding: 20px;
     display: none;
 }
 
@@ -1103,6 +1103,7 @@ a{
 
 .user-profile{
     display: none;
+    padding: 20px;
 }
 
 .z-radio-home{
@@ -1289,9 +1290,8 @@ img, video {
 }
 
 .radio-list-item-layout{
-    margin: 0 30px;
     margin-top: 30px;
-
+    padding-left: 40px;
 }
 
 .radio-list-item-layout-ingredient{
@@ -1971,6 +1971,10 @@ img, video {
     font-weight: 600;
     text-transform: capitalize;
     display: block;
+}
+
+img.backgroundTop100 {
+    margin-bottom: -335px;
 }
 
 /* End top 100 */
