@@ -623,6 +623,7 @@ a{
 
 .user-canhan {
     padding-bottom: 200px;
+    display: none;
 }
 
 .user-profile-canhan {
@@ -692,174 +693,6 @@ a{
 }
 
 /* -------End CaNhan----- */
-
-/* zingchat */
-
-.user-zingchat{
-    margin-bottom: 100px;    
-    display: none;
-}
-
-.zingchatmain{
-    /* background-color: rebeccapurple; */
-    padding: 100px 40px 40px;
-}
-
-.zingchatheader {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 40px;
-    margin-left: 16px;
-}
-
-.zingchat-header-name{
-    color: #fff;
-    margin: 0;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 4.9rem;
-}
-
-.zingchat-header-icon{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    cursor: pointer;
-    margin-left: 5px;
-    border-radius: 50%;
-    background-color: rebeccapurple;
-}
-
-.zingchat-header-icon-play{
-    margin: auto;
-    font-size: 1rem;
-    color: #fff;
-}
-
-/* zing container */
-
-.zingchat-container{
-    margin-top: 40px;
-    color: #fff;
-    padding: 24px;
-}
-
-.zingchat-item{
-    display: flex;
-    padding: 8px;
-}
-
-.zingchat-item:hover{
-    background-color: hsla(0,0%,100%,0.1);
-}
-
-.zingchat-playlist{
-    width: 50%;
-    display: flex;
-}
-
-.zingchat-media{
-    width: 40px;
-    height: 40px;
-    align-self: center;
-}
-
-.zingchat-rank{
-    width: 40px;
-    font-size: 2.4rem;
-    line-height: 4rem;
-    font-weight: 900;
-    text-align: center;
-    color: transparent;
-    font-family: "Roboto", sans-serif;
-}
-
-.zingchat-rank-icon{
-    width: 18px;
-    height: 100%;
-    line-height: 3.5rem;
-    font-size: .8rem;
-    color: #777;
-    align-items: center;
-    margin-right: 16px;
-    margin-left: 24px;
-}
-
-.zingchat-media-anh{
-    border-radius: 4px;
-}
-
-.zingchat-media-song{
-    max-width: 100%;
-    font-size: 1.3rem;
-    line-height: 1.8rem;
-    color: #fff;
-}
-
-.zingchat-media-author{
-    font-weight: 400;
-    color: #777;
-}
-
-.zingchat-media-content{
-    align-self: center;
-    margin: 0 0 0 8px;
-}
-
-.zingchat-time{
-    width: 35%;
-}
-
-.zingchat-content{
-    width: 15%;
-    display: flex;
-    align-self: center;
-}
-
-.is-outline--blue {
-    -webkit-text-stroke: 1px #4a90e2;
-}
-.is-outline--green {
-    -webkit-text-stroke: 1px rgb(6, 199, 6);
-}
-.is-outline--red {
-    -webkit-text-stroke: 1px red;
-}
-.is-outline--white {
-    -webkit-text-stroke: 1px white;
-}
-
-.zingchat-time{
-    flex: 1 1;
-    color: #999;
-    font-size: 1.2rem;
-    text-align: left;
-    align-self: center;
-}
-/* zingchat content */
-
-.zingchat-content-icon{
-    padding: 0 20px;
-}
-
-.zingchat-heart{
-    color: purple;
-}
-
-option-btn {
-    width: 32px;
-    height: 32px;
-    padding: 9px 10px;
-    margin: 0 2px;
-    cursor: pointer;
-    border-radius: 50%;
-    color: var(--text-color);
-    background-color: transparent;
-}
-
-/*End zing Chat*/
 
 /* ------Kham Pha------ */
 
@@ -1269,25 +1102,168 @@ option-btn {
 
 
 /* Zing chat */
-.playlist__list-charts {
-    flex: 1;
-    display: flex;
-    font-weight: 500;
-    font-size: 1.2rem;
-    flex-direction: column;
-    overflow: hidden overlay;
-    scroll-behavior: smooth;
-    justify-content: flex-start;
-    will-change: scroll-position;
+
+.user-zingchat{
+    margin-bottom: 100px;    
 }
 
-.playlist__list-song {
-    justify-content: space-between;
-    height: 61px;
-    padding: 10px;
+.zingchatmain{
+    /* background-color: rebeccapurple; */
+    padding: 100px 40px 40px;
+}
+
+.zingchatheader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    margin-left: 16px;
+}
+
+.zingchat-header-name{
+    color: #fff;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 4.9rem;
+}
+
+.zingchat-header-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
     cursor: pointer;
-    box-shadow: 0 1px 1px var(--bg-color);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+}
+
+.zingchat-header-icon-play{
+    margin: auto;
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* zing container */
+
+.zingchat-container{
+    margin-top: 40px;
+    color: #fff;
+    padding: 24px;
+}
+
+.zingchat-item{
+    display: flex;
+    padding: 8px;
+}
+
+.zingchat-item:hover{
+    background-color: hsla(0,0%,100%,0.1);
+}
+
+.zingchat-playlist{
+    width: 50%;
+    display: flex;
+}
+
+.zingchat-media{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+
+.zingchat-rank{
+    width: 40px;
+    font-size: 2.4rem;
+    line-height: 4rem;
+    font-weight: 900;
+    text-align: center;
+    color: transparent;
+    font-family: "Roboto", sans-serif;
+}
+
+.zingchat-rank-icon{
+    width: 18px;
+    height: 100%;
+    line-height: 3.5rem;
+    font-size: .8rem;
+    color: #777;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: 24px;
+}
+
+.zingchat-media-anh{
+    border-radius: 4px;
+}
+
+.zingchat-media-song{
+    max-width: 100%;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #fff;
+}
+
+.zingchat-media-author{
+    font-weight: 400;
+    color: #777;
+}
+
+.zingchat-media-content{
+    align-self: center;
+    margin: 0 0 0 8px;
+}
+
+.zingchat-time{
+    width: 35%;
+}
+
+.zingchat-content{
+    width: 15%;
+    display: flex;
+    align-self: center;
+}
+
+.is-outline--blue {
+    -webkit-text-stroke: 1px #4a90e2;
+}
+.is-outline--green {
+    -webkit-text-stroke: 1px rgb(6, 199, 6);
+}
+.is-outline--red {
+    -webkit-text-stroke: 1px red;
+}
+.is-outline--white {
+    -webkit-text-stroke: 1px white;
+}
+
+.zingchat-time{
+    flex: 1 1;
+    color: #999;
+    font-size: 1.2rem;
+    text-align: left;
+    align-self: center;
+}
+/* zingchat content */
+
+.zingchat-content-icon{
+    padding: 0 20px;
+}
+
+.zingchat-heart{
+    color: purple;
+}
+
+option-btn {
+    width: 32px;
+    height: 32px;
+    padding: 9px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: var(--text-color);
+    background-color: transparent;
 }
 
 /*End zing Chat*/

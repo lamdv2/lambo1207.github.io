@@ -15,6 +15,7 @@ var UserProFile = document.getElementById("user-profilepro");
 var UserProFileKhamPha = document.getElementById("user-profile-khampha");
 var UserProFileFollowVN = document.getElementById("user-profilepro-FollowVN");
 var UserProFileTop100 = document.getElementById("user-profile-top100");
+var UserProFileZingChat = document.getElementById("user-profile-zingchat");
 
 var CaNhan = document.getElementById("onclickCaNhan");
 CaNhan.onclick = function(){
@@ -23,12 +24,14 @@ CaNhan.onclick = function(){
     UserProFileKhamPha.style.display = 'none';
     UserProFileFollowVN.style.display = 'none';
     UserProFileTop100.style.display = 'none';
+    UserProFileZingChat.style.display = 'none';
 
     cssbackground(CaNhan);
     cssbackgroundnone(KhamPha);
     cssbackgroundnone(Radio);
     cssbackgroundnone(FollowVN);
     cssbackgroundnone(Top100);
+    cssbackgroundnone(ZingChat);
 }
 
 var KhamPha = document.getElementById("onclickKhamPha");
@@ -38,12 +41,14 @@ KhamPha.onclick = function(){
     UserProFile_CaNhan.style.display = 'none';
     UserProFileFollowVN.style.display = 'none';
     UserProFileTop100.style.display = 'none';
+    UserProFileZingChat.style.display = 'none';
     
     cssbackground(KhamPha);
     cssbackgroundnone(CaNhan);
     cssbackgroundnone(Radio);
     cssbackgroundnone(FollowVN);
     cssbackgroundnone(Top100);
+    cssbackgroundnone(ZingChat);
 }
 
 var Radio = document.getElementById("onclickRadio");
@@ -53,12 +58,14 @@ Radio.onclick = function(){
     UserProFileKhamPha.style.display = 'none';
     UserProFileFollowVN.style.display = 'none';
     UserProFileTop100.style.display = 'none';
+    UserProFileZingChat.style.display = 'none';
 
     cssbackground(Radio);
     cssbackgroundnone(CaNhan);
     cssbackgroundnone(KhamPha);
     cssbackgroundnone(FollowVN);
     cssbackgroundnone(Top100);
+    cssbackgroundnone(ZingChat);
 }
 
 var FollowVN = document.getElementById("onclickFollow");
@@ -68,12 +75,14 @@ FollowVN.onclick = function(){
     UserProFile_CaNhan.style.display = 'none';
     UserProFileFollowVN.style.display = 'block';
     UserProFileTop100.style.display = 'none';
+    UserProFileZingChat.style.display = 'none';
     
     cssbackground(FollowVN);
     cssbackgroundnone(KhamPha);
     cssbackgroundnone(CaNhan);
     cssbackgroundnone(Radio);
     cssbackgroundnone(Top100);
+    cssbackgroundnone(ZingChat);
 }
 
 var Top100 = document.getElementById("onclickTop100");
@@ -83,8 +92,27 @@ Top100.onclick = function(){
     UserProFileKhamPha.style.display = 'none';
     UserProFileFollowVN.style.display = 'none';
     UserProFileTop100.style.display = 'block';
+    UserProFileZingChat.style.display = 'none';
 
     cssbackground(Top100);
+    cssbackgroundnone(KhamPha);
+    cssbackgroundnone(Radio);
+    cssbackgroundnone(FollowVN);
+    cssbackgroundnone(CaNhan);
+    cssbackgroundnone(ZingChat);
+}
+
+var ZingChat = document.getElementById("onclickZingChat");
+ZingChat.onclick = function(){
+    UserProFile_CaNhan.style.display = 'none';
+    UserProFile.style.display = 'none';
+    UserProFileKhamPha.style.display = 'none';
+    UserProFileFollowVN.style.display = 'none';
+    UserProFileTop100.style.display = 'none';
+    UserProFileZingChat.style.display = 'block';
+
+    cssbackground(ZingChat);
+    cssbackgroundnone(Top100);
     cssbackgroundnone(KhamPha);
     cssbackgroundnone(Radio);
     cssbackgroundnone(FollowVN);
