@@ -1,0 +1,75 @@
+.loginmain{
+    width: 450px;
+    height: 592px;
+    margin: auto;
+    background-color: rgb(236, 235, 235);
+    position: relative;
+}
+
+.center{
+    text-align: center;
+}
+
+.logincontent{
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px; 
+    padding-top: 16px;
+    background-color: #fff;
+}
+
+.loginheading-sub{
+    color: rgb(114, 114, 114);
+    font-size: 18px;
+}
+
+.logininput{
+    margin-top: 58px;
+}
+
+.loginrow{
+    padding-left: 16px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.loginrow p{
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    font-weight: 550;
+}
+
+.loginrow a{
+    padding-left: 275px;
+}
+
+input{
+    padding: 8px;
+    width: 88%;
+    border: 2px solid #ddd;
+}
+
+.loginbton{
+    margin-top: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #00CED1;
+    font-weight: 550;
+    width: 93%;
+    margin-bottom: 10px;
+}
+
+.loginbtnton{
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #00CED1;
+    font-weight: 550;
+    width: 93%;
+}

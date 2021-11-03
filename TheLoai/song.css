@@ -1,0 +1,101 @@
+.songmain{
+    width: 750px;
+    min-height: 580px;
+    background-color: rgb(221, 255, 221);
+    position: relative;
+    animation: modalsongFadeIn ease .5s;
+    margin: auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.songcontent{
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px; 
+    padding-top: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 100%);
+}
+
+.songheading-sub{
+    color: rgb(114, 114, 114);
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.songinput{
+    margin-top: 58px;
+}
+
+.songrow{
+    padding-left: 16px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.songrow p{
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    font-weight: 550;
+}
+
+.songrow a{
+    padding-left: 275px;
+    color: blue;
+}
+
+.songsubmit{
+    /* position: fixed; */
+    width: 32%;
+    padding-left: 32%;
+}
+
+.padding-top-20{
+    padding-top: 20px;
+}
+
+input{
+    padding: 8px;
+    width: 93%;
+    border: 2px solid #ddd;
+}
+
+.songbton{
+    margin-top: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #00CED1;
+    font-weight: 550;
+    /* width: 93%; */
+    margin-bottom: 10px;
+}
+
+.songbton:hover{
+    background-color: #00b6b9;
+    cursor: pointer;
+}
+
+.songbton:active{
+    background-color: #764597;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+@keyframes modalLoginFadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
