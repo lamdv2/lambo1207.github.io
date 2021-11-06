@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+    <title>logout</title>
+</head>
+
+<body>
+    <div class="main">
+        <form action="" method="post" class="form" id="form-1">
+            <h3 class="heading">Đăng ký thành viên</h3>
+            <p class="desc">Cùng nhau tận hưởng âm nhạc
+                <lord-icon src="https://cdn.lordicon.com/wxnxiano.json" trigger="loop" colors="primary:#121331,secondary:#08a88a" style="width:28px;height:28px">
+                </lord-icon>
+            </p>
+
+            <div class="spacer"></div>
+
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tên đầy đủ</label>
+                <input class="form-input" type="text" id="fullname" name="fullname" placeholder="eg. DreamTeam">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-input" type="text" id="email" name="email" placeholder="eg. DreamTeam@gmail.com">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input class="form-input" type="password" id="password" name="password" placeholder="Nhập mật khẩu">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                <input class="form-input" type="password" id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu">
+                <span class="form-message"></span>
+            </div>
+
+            <button class="form-submit">Đăng ký</button>
+        </form>
+    </div>
+
+    <script src="./validator.js"></script>
+
+    <script>
+        Validator({
+            form: '#form-1',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#fullname'),
+                Validator.isEmail('#email'),
+                Validator.minLength('#password', 6),
+                Validator.isConfirmed('#password_confirmation', function() {
+                    return document.querySelector('#form-1 #password').value;
+                })
+            ]
+        });
+    </script>
+
+</body>
+
+</html>
