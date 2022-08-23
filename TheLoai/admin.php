@@ -32,16 +32,16 @@
 </head>
 
 <body>
-<?php 
-    require("config.php");
-    $username = $_SESSION["username"];
+    <?php 
+        require("config.php");
+        $username = $_SESSION["username"];
 
-    $username = preg_replace('/\s+/', '', $username);
-    
-    $sql = "select * from $username";
-    $result=mysqli_query($conn , $sql);
-    
-?>
+        $username = preg_replace('/\s+/', '', $username);
+        
+        $sql = "select * from $username";
+        $result=mysqli_query($conn , $sql);
+        
+    ?>
     <div class="main">
         <div class="sidebar hide-on-mobile">
             <div class="sidebar-logo">
@@ -6261,12 +6261,9 @@
         </div>
     </div>
 
-    <script>
-        
-    </script>
-
     <script src="./convert.js"></script>
     <script src="./assets/Js/main.js"></script>
+    <script src="./assets/Js/theme.js"></script>
 </body>
 
 </html>

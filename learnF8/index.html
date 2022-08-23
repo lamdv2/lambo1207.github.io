@@ -1,390 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Da Nang tourism</title>
-    <link rel="icon" href="data:image/jpeg;base64,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" />
+    <link rel="icon" href="data:image/jpeg;base64,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"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="main">
-      <div id="header">
-        <!-- Begin - nav -->
-        <ul id="nav">
-          <li>
-            <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-          </li>
-          <li>
-            <a href="#introduce"><i class="fa fa-align-justify"></i> Introduction</a>
-          </li>
-          <li>
-            <a href="#projects-section"
-              ><i class="fa fa-map"></i> Place</a
+        <div id="header">
+            <!-- Begin - nav -->
+            <ul id="nav">
+                <li>
+                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                </li>
+                <li>
+                    <a href="#introduce"><i class="fa fa-align-justify"></i> Introduction</a>
+                </li>
+                <li>
+                    <a href="#projects-section"><i class="fa fa-map"></i> Place</a
             >
           </li>
           <li>
             <a href="#contact"><i class="fa fa-envelope-open"></i> Contact</a>
-          </li>
-          <li>
-            <a href="#">
+                </li>
+                <li>
+                    <a href="#">
               More
               <i class="fa fa-sort nav-angle-down "></i>
             </a>
-            <ul class="subnav">
-              <li>
-                <a href="#"> <i class="fa fa-laptop"> </i> Information</a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-file"> </i> Products</a
-                >
-              </li>
-              <li>
-                <a href="#"> <i class="fa fa-gamepad"> </i> Games</a>
-              </li>
+                    <ul class="subnav">
+                        <li>
+                            <a href="#"> <i class="fa fa-laptop"> </i> Information</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-file"> </i> Products</a>
+                        </li>
+                        <li>
+                            <a href="#"> <i class="fa fa-gamepad"> </i> Games</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
-          </li>
-        </ul>
-        <!-- End - nav  -->
+            <!-- End - nav  -->
 
-        <!-- Begin- Search -->
-        <div class="search-bton">
-          <i class="search-icon fa fa-search"></i>
-        </div>
-        <!-- End- Search -->
-      </div>
-
-      <div id="slider">
-        <div class="text-content">
-          <h2 class="text-heading">Đà Nẵng City</h2>
-          <div class="text-decscription">
-            Da Nang is located in the Central region, where many world heritages
-            are connected.
-          </div>
-        </div>
-      </div>
-
-      <div id="content">
-        <!-- introduce-section -->
-        <div id="introduce">
-          <div class="content-section">
-            <h2 class="section-heading text-color">INTRODUCE</h2>
-            <p class="section-sub-heading text-color">
-              Introduction to Danang city
-            </p>
-            <p class="about-text text-color">
-              With the advantage of geographical location and natural
-              conditions, Da Nang is fortunate to own many beautiful beaches,
-              gentle stretches and endless white sand. Da Nang Beach was voted
-              by Forbes magazine (USA) as one of the 6 most attractive beaches
-              on the planet. Not only famous for its beaches, this place also
-              has attractive beauty when there is Son Tra island reaching out to
-              the sea, Hai Van pass - "the first heroic world" with spectacular
-              scenery. And it is impossible not to mention that it is the Marble
-              Mountains, especially Ba Na Hills - the name that makes up the
-              brand for Da Nang tourism and many other places.
-            </p>
-            <div class="member-list text-color">
-              <div class="member-item">
-                <p class="member-name fa fa-map-signs "> Bãi Biển Mỹ Khê</p>
-                <img
-                  title="My Khe beach"
-                  src="https://rosamiahotel.com/FileUpload/Images/mykhe_1.jpg"
-                  alt="ảnh Biển Mỹ Khê"
-                  class="member-img"
-                />
-              </div>
-              <div class="member-item">
-                <p class="member-name fa fa-map-signs"> Sun World DaNang</p>
-                <img
-                  title="Sun World Danang"
-                  src="https://owa.bestprice.vn/images/articles/uploads/5-diem-den-noi-tieng-cua-thanh-pho-dang-song-nhat-viet-nam-56cc06bba420f.jpg"
-                  alt="ảnh Sun World Đà Nẵng"
-                  class="member-img"
-                />
-              </div>
-              <div class="member-item">
-                <p class="member-name fa fa-map-marker"> Phố Cổ Hội An</p>
-                <img
-                  title="Hoi An"
-                  src="http://divui.com/blog/wp-content/uploads/2018/03/lich-trinh-du-lich-da-nang-hoi-an-cho-dan-cong-so-19-300x200.jpg"
-                  alt="ảnh Phố cổ Hội An"
-                  class="member-img"
-                />
-              </div>
-              <div class="member-item">
-                <p class="member-name fa fa-map-marker"> Cá Chép Hoá Rồng</p>
-                <img
-                  title="Marina"
-                  src="https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/01_2021/tuong-ca-chep-hoa-rong-da-nang-huyenoc-min.jpg"
-                  alt="ảnh Cá Chép Hoá Rồng"
-                  class="member-img"
-                />
-              </div>
+            <!-- Begin- Search -->
+            <div class="search-bton">
+                <i class="search-icon fa fa-search"></i>
             </div>
-
-            <div class="joint-team">
-              <p class="joint-img">Featured image:</p>
-              <div class="team-img">
-                <img
-                  title="Han river" 
-                  src="https://img3.thuthuatphanmem.vn/uploads/2019/07/13/anh-dep-mot-goc-thanh-pho-da-nang_085826342.jpg"
-                  alt="Ảnh team(1)"
-                  class="team"
-                />
-                <img
-                     title="Dragon Bridge"
-                  src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/1.jpg"
-                  alt="Ảnh team(2)"
-                  class="team"
-                />
-              </div>
-            </div>
-
-            <div class="introduce">
-              <p class="activity text-color">Statistics :</p>
-
-              <div class="active">
-                <p class="active-name ">
-                  <i class="icon ti-ruler-pencil"></i> Friendly
-                </p>
-                <div class="active-frames">
-                  <div class="active-percent" style="--percent: 95%">95%</div>
-                </div>
-              </div>
-
-              <div class="active">
-                <p class="active-name"><i class="icon ti-car"></i> Security</p>
-                <div class="active-frames">
-                  <div class="active-percent" style="--percent: 85%">85%</div>
-                </div>
-              </div>
-
-              <div class="active">
-                <p class="active-name">
-                  <i class="icon ti-headphone"></i> Cleanliness 
-                </p>
-                <div class="active-frames">
-                  <div class="active-percent" style="--percent: 70%">70%</div>
-                </div>
-              </div>
-
-              <div class="active">
-                <p class="active-name">
-                  <i class="icon ti-game"></i> Noisy
-                </p>
-                <div class="active-frames">
-                  <div class="active-percent" style="--percent: 50%">50%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- projects-section -->
-
-        <div id="projects-section">
-          <div class="content-section">
-            <h2 class="section-heading text-white ">PLACES</h2>
-            <p class="section-sub-heading text-white">
-              Top 3 best hotels in Da Nang 
-            </p>
-
-            <ul class="tickets-list">
-              <li>1. HOLIDAY BEACH DANANG HOTEL & RESORT <span class="sold-out">out of room</span></li>
-              <li>2. NOVOTEL DANANG PREMIER HAN RIVER <span class="sold-out">out of room</span></li>
-              <li>3. VINPEARL DA NANG RESORT<span class="quantity">4</span></li>
-            </ul>
-
-            <p class="section-sub-heading text-white">
-              Tourist places that our team has been to before!
-            </p>
-            <div class="row projects-list">
-              <div class="col col-third">
-                <img
-                  src="https://tour.dulichvietnam.com.vn/uploads/image/du-lich-da-nang/thanh-pho-da-nang(1).jpg"
-                  alt=""
-                  class="projects-img"
-                />
-                <div class="projects-body">
-                  <h3 class="projects-heading">Da Nang Sea</h3>
-                  <p class="project-time">Fri 2 Jul 2021</p>
-                  <p class="project-desc">
-                    Da Nang beach has small waves, salty water, blue water in
-                    four seasons, not polluted.
-                  </p>
-                  <button class="project-buy-btn js-buy-tickets">
-                    Buy Tickets
-                  </button>
-                </div>
-              </div>
-
-              <div class="col col-third">
-                <img
-                  src="https://banahills.sunworld.vn/wp-content/uploads/2020/02/banahill.png"
-                  alt=""
-                  class="projects-img"
-                />
-                <div class="projects-body">
-                  <h3 class="projects-heading">Ba Na Hills</h3>
-                  <p class="project-time">Mon 12 Jul 2021</p>
-                  <p class="project-desc">
-                    Ba Na Hills is known as one of the most famous places in
-                    Vietnam that any visitor cannot ignore.
-                  </p>
-                  <button class="project-buy-btn js-buy-tickets">
-                    Buy Tickets
-                  </button>
-                </div>
-              </div>
-
-              <div class="col col-third">
-                <img
-                  src="https://dulichlive.com/da-nang/wp-content/uploads/sites/2/2019/06/kinh-nghiem-di-chua-linh-ung-bai-but-1.jpg"
-                  alt=""
-                  class="projects-img"
-                />
-                <div class="projects-body">
-                  <h3 class="projects-heading">Linh Ung Pagoda</h3>
-                  <p class="project-time">Sun 25 Jul 2021</p>
-                  <p class="project-desc">
-                    Linh Ung Pagoda is known as a beautiful, with the tallest
-                    statue of Quan Am Buddha in Vietnam.
-                  </p>
-                  <button class="project-buy-btn js-buy-tickets">
-                    Buy Tickets
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+            <!-- End- Search -->
         </div>
 
-        <!-- contact  -->
-        <div id="contact">
-          <div class="content-section">
-            <h2 class="section-heading text-color">CONTACT</h2>
-            <p class="section-sub-heading text-color">
-              I'd like your feedback!!!
-              <div class="row contact-content">
-                        <div class="col col-half contact-info">
-                            <p><i class="fa fa-map-marker" aria-hidden="true"></i>Da Nang, VN</p>
-                            <p><i class="fa fa-phone"></i>Phone: +84 120701</p>
-                            <p><i class="fa fa-reply"></i>Email: dulichdanang@mail.com</p>
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">Đà Nẵng City</h2>
+                <div class="text-decscription">
+                    Da Nang is located in the Central region, where many world heritages are connected.
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <!-- introduce-section -->
+            <div id="introduce">
+                <div class="content-section">
+                    <h2 class="section-heading text-color">INTRODUCE</h2>
+                    <p class="section-sub-heading text-color">
+                        Introduction to Danang city
+                    </p>
+                    <p class="about-text text-color">
+                        With the advantage of geographical location and natural conditions, Da Nang is fortunate to own many beautiful beaches, gentle stretches and endless white sand. Da Nang Beach was voted by Forbes magazine (USA) as one of the 6 most attractive beaches on
+                        the planet. Not only famous for its beaches, this place also has attractive beauty when there is Son Tra island reaching out to the sea, Hai Van pass - "the first heroic world" with spectacular scenery. And it is impossible not
+                        to mention that it is the Marble Mountains, especially Ba Na Hills - the name that makes up the brand for Da Nang tourism and many other places.
+                    </p>
+                    <div class="member-list text-color">
+                        <div class="member-item">
+                            <p class="member-name fa fa-map-signs "> Bãi Biển Mỹ Khê</p>
+                            <img title="My Khe beach" src="https://rosamiahotel.com/FileUpload/Images/mykhe_1.jpg" alt="ảnh Biển Mỹ Khê" class="member-img" />
                         </div>
-                        <div class="col col-half contact-form">
-                            <form action="">
-                                <div class="row">
-                                    <div class="col col-half">
-                                        <input type="text" name="" placeholder="Name" required id="" class="form-control">
-                                    </div>
-                                    <div class="col col-half">
-                                        <input type="email" name="" placeholder="Email" required id="" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="row mt-8">
-                                    <div class="col col-full">
-                                        <input type="text" name="" placeholder="Messaga" required id="" class="form-control">
-                                    </div>
-                                </div>
-                                <input class="form-submit" type="submit" value="SEND">                  
-                            </form>
+                        <div class="member-item">
+                            <p class="member-name fa fa-map-signs"> Sun World DaNang</p>
+                            <img title="Sun World Danang" src="https://owa.bestprice.vn/images/articles/uploads/5-diem-den-noi-tieng-cua-thanh-pho-dang-song-nhat-viet-nam-56cc06bba420f.jpg" alt="ảnh Sun World Đà Nẵng" class="member-img" />
+                        </div>
+                        <div class="member-item">
+                            <p class="member-name fa fa-map-marker"> Phố Cổ Hội An</p>
+                            <img title="Hoi An" src="http://divui.com/blog/wp-content/uploads/2018/03/lich-trinh-du-lich-da-nang-hoi-an-cho-dan-cong-so-19-300x200.jpg" alt="ảnh Phố cổ Hội An" class="member-img" />
+                        </div>
+                        <div class="member-item">
+                            <p class="member-name fa fa-map-marker"> Cá Chép Hoá Rồng</p>
+                            <img title="Marina" src="https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/01_2021/tuong-ca-chep-hoa-rong-da-nang-huyenoc-min.jpg" alt="ảnh Cá Chép Hoá Rồng" class="member-img" />
                         </div>
                     </div>
-            </p>
-          </div>
-        </div>
-        <div class="map-section">
+
+                    <div class="joint-team">
+                        <p class="joint-img">Featured image:</p>
+                        <div class="team-img">
+                            <img title="Han river" src="https://img3.thuthuatphanmem.vn/uploads/2019/07/13/anh-dep-mot-goc-thanh-pho-da-nang_085826342.jpg" alt="Ảnh team(1)" class="team" />
+                            <img title="Dragon Bridge" src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/1.jpg" alt="Ảnh team(2)" class="team" />
+                        </div>
+                    </div>
+
+                    <div class="introduce">
+                        <p class="activity text-color">Statistics :</p>
+
+                        <div class="active">
+                            <p class="active-name ">
+                                <i class="icon ti-ruler-pencil"></i> Friendly
+                            </p>
+                            <div class="active-frames">
+                                <div class="active-percent" style="--percent: 95%">95%</div>
+                            </div>
+                        </div>
+
+                        <div class="active">
+                            <p class="active-name"><i class="icon ti-car"></i> Security</p>
+                            <div class="active-frames">
+                                <div class="active-percent" style="--percent: 85%">85%</div>
+                            </div>
+                        </div>
+
+                        <div class="active">
+                            <p class="active-name">
+                                <i class="icon ti-headphone"></i> Cleanliness
+                            </p>
+                            <div class="active-frames">
+                                <div class="active-percent" style="--percent: 70%">70%</div>
+                            </div>
+                        </div>
+
+                        <div class="active">
+                            <p class="active-name">
+                                <i class="icon ti-game"></i> Noisy
+                            </p>
+                            <div class="active-frames">
+                                <div class="active-percent" style="--percent: 50%">50%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- projects-section -->
+
+            <div id="projects-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white ">PLACES</h2>
+                    <p class="section-sub-heading text-white">
+                        Top 3 best hotels in Da Nang
+                    </p>
+
+                    <ul class="tickets-list">
+                        <li>1. HOLIDAY BEACH DANANG HOTEL & RESORT <span class="sold-out">out of room</span></li>
+                        <li>2. NOVOTEL DANANG PREMIER HAN RIVER <span class="sold-out">out of room</span></li>
+                        <li>3. VINPEARL DA NANG RESORT<span class="quantity">4</span></li>
+                    </ul>
+
+                    <p class="section-sub-heading text-white">
+                        Tourist places that our team has been to before!
+                    </p>
+                    <div class="row projects-list">
+                        <div class="col col-third">
+                            <img src="https://tour.dulichvietnam.com.vn/uploads/image/du-lich-da-nang/thanh-pho-da-nang(1).jpg" alt="" class="projects-img" />
+                            <div class="projects-body">
+                                <h3 class="projects-heading">Da Nang Sea</h3>
+                                <p class="project-time">Fri 2 Jul 2021</p>
+                                <p class="project-desc">
+                                    Da Nang beach has small waves, salty water, blue water in four seasons, not polluted.
+                                </p>
+                                <button class="project-buy-btn js-buy-tickets">
+                    Buy Tickets
+                  </button>
+                            </div>
+                        </div>
+
+                        <div class="col col-third">
+                            <img src="https://banahills.sunworld.vn/wp-content/uploads/2020/02/banahill.png" alt="" class="projects-img" />
+                            <div class="projects-body">
+                                <h3 class="projects-heading">Ba Na Hills</h3>
+                                <p class="project-time">Mon 12 Jul 2021</p>
+                                <p class="project-desc">
+                                    Ba Na Hills is known as one of the most famous places in Vietnam that any visitor cannot ignore.
+                                </p>
+                                <button class="project-buy-btn js-buy-tickets">
+                    Buy Tickets
+                  </button>
+                            </div>
+                        </div>
+
+                        <div class="col col-third">
+                            <img src="https://dulichlive.com/da-nang/wp-content/uploads/sites/2/2019/06/kinh-nghiem-di-chua-linh-ung-bai-but-1.jpg" alt="" class="projects-img" />
+                            <div class="projects-body">
+                                <h3 class="projects-heading">Linh Ung Pagoda</h3>
+                                <p class="project-time">Sun 25 Jul 2021</p>
+                                <p class="project-desc">
+                                    Linh Ung Pagoda is known as a beautiful, with the tallest statue of Quan Am Buddha in Vietnam.
+                                </p>
+                                <button class="project-buy-btn js-buy-tickets">
+                    Buy Tickets
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- contact  -->
+            <div id="contact">
+                <div class="content-section">
+                    <h2 class="section-heading text-color">CONTACT</h2>
+                    <p class="section-sub-heading text-color">
+                        I'd like your feedback!!!
+                        <div class="row contact-content">
+                            <div class="col col-half contact-info">
+                                <p><i class="fa fa-map-marker" aria-hidden="true"></i>Da Nang, VN</p>
+                                <p><i class="fa fa-phone"></i>Phone: +84 120701</p>
+                                <p><i class="fa fa-reply"></i>Email: dulichdanang@mail.com</p>
+                            </div>
+                            <div class="col col-half contact-form">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col col-half">
+                                            <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                        </div>
+                                        <div class="col col-half">
+                                            <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-8">
+                                        <div class="col col-full">
+                                            <input type="text" name="" placeholder="Messaga" required id="" class="form-control">
+                                        </div>
+                                    </div>
+                                    <input class="form-submit" type="submit" value="SEND">
+                                </form>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="map-section">
                 <img src="https://media-cdn.laodong.vn/Storage/newsportal/2019/5/6/731584/DSC1844.png" alt="Map">
             </div>
-      </div>
-
-      <div id="footer">
-            <div class="socials-list">
-            <a href=""><i class="fa fa-facebook-official"></i></a>
-            <a href=""><i class="fa fa-youtube"></i></a>
-            <a href=""><i class="fa fa-instagram"></i></a>
-            <a href=""><i class="fa fa-twitter"></i></a>
-            <a href=""><i class="fa fa-pinterest"></i></a>
-            <a href=""><i class="fa fa-linkedin"></i></a>
         </div>
+
+        <div id="footer">
+            <div class="socials-list">
+                <a href=""><i class="fa fa-facebook-official"></i></a>
+                <a href=""><i class="fa fa-youtube"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-pinterest"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
 
             <p class="coppyright">Powered by <a href="https://www.facebook.com/profile.php?id=100022265070907">dovanlam1207</a></p>
         </div>
     </div>
 
     <div class="modal js-modal">
-      <div class="modal-container js-modal-container">
-        <div class="modal-close js-modal-close">
-          <i class="fa fa-window-close" aria-hidden="true"></i>
-        </div>
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fa fa-window-close" aria-hidden="true"></i>
+            </div>
 
-        <header class="modal-header">
-          <i class="fa fa-shopping-bag" aria-hidden="true"> Tickets</i>
-        </header>
+            <header class="modal-header">
+                <i class="fa fa-shopping-bag" aria-hidden="true"> Tickets</i>
+            </header>
 
-        <div class="modal-body">
-          <label for="tickets-quantity" class="modal-label">
+            <div class="modal-body">
+                <label for="tickets-quantity" class="modal-label">
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
             Tickets, $15 per person
           </label>
-          <input
-            id="tickets-quantity"
-            type="text"
-            class="modal-input"
-            placeholder="How many ? "
-          />
+                <input id="tickets-quantity" type="text" class="modal-input" placeholder="How many ? " />
 
-          <label for="tickets-email" class="modal-label">
+                <label for="tickets-email" class="modal-label">
             <i class="fa fa-user"></i>
             Send to
           </label>
-          <input
-            id="tickets-email"
-            type="text"
-            class="modal-input"
-            placeholder="Enter email "
-          />
+                <input id="tickets-email" type="text" class="modal-input" placeholder="Enter email " />
 
-          <button class="modal-button">
+                <button class="modal-button">
             PAY
             <i class="fa fa-check"></i>
           </button>
-        </div>
+            </div>
 
-        <footer class="modal-footer">
-          <p class="modal-help">Need <a href="">help?</a></p>
-        </footer>
-      </div>
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="">help?</a></p>
+            </footer>
+        </div>
     </div>
 
     <script>
-      const buyBtns = document.querySelectorAll(".js-buy-tickets");
-      const modal = document.querySelector(".js-modal");
-      const modalcontainer = document.querySelector('.js-modal-container')
-      const modalClose = document.querySelector(".js-modal-close");
+        const buyBtns = document.querySelectorAll(".js-buy-tickets");
+        const modal = document.querySelector(".js-modal");
+        const modalcontainer = document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector(".js-modal-close");
 
-      function showBuyTickets() {
-        modal.classList.add("open");
-      }
+        function showBuyTickets() {
+            modal.classList.add("open");
+        }
 
-      function closeBuyTickets() {
-        modal.classList.remove("open");
-      }
+        function closeBuyTickets() {
+            modal.classList.remove("open");
+        }
 
-      for (const buyBtn of buyBtns) {
-        buyBtn.addEventListener("click", showBuyTickets);
-      }
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener("click", showBuyTickets);
+        }
 
-      modalClose.addEventListener("click", closeBuyTickets);
-      
-      modal.addEventListener('click', closeBuyTickets)
+        modalClose.addEventListener("click", closeBuyTickets);
 
-      modalcontainer.addEventListener('click', function (event) {
+        modal.addEventListener('click', closeBuyTickets)
+
+        modalcontainer.addEventListener('click', function(event) {
             event.stopPropagation()
         })
     </script>
-  </body>
+</body>
+
 </html>

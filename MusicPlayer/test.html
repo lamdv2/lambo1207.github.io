@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bài tập</title>
+</head>
+
+<style>
+    .main {
+        display: flex;
+    }
+</style>
+
+<body>
+
+    <div class="main">
+        <div class="form1">
+            <h2>Tìm kiếm dữ liệu</h2>
+            <div>
+                <label>Nhập tiêu đề</label>
+                <input type="text" name="">
+            </div>
+            <a class="tim" href="#">Tìm kiếm nâng cao</a>
+            <div><input type="button" value="Tìm kiếm" class="BtnChon"></div>
+        </div>
+
+        <div class="form2">
+            <h2>Tìm kiếm dữ liệu</h2>
+            <div>
+                <label>Nhập tiêu đề</label>
+                <input type="text" name="">
+            </div>
+            <a class="bo" href="#">Bỏ tìm kiếm nâng cao</a>
+            <div>
+                <label>Chọn chuyên mục</label>
+                <select id="province" name="province">
+                    <option>PHP</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>Javascript</option>
+                </select>
+            </div>
+            <div><input type="button" value="Tìm kiếm" class="BtnChon"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const form1 = document.querySelector('.form1')
+        const form2 = document.querySelector('.form2')
+        const Tim = document.querySelector('.tim')
+        const Bo = document.querySelector('.bo')
+
+        Tim.onclick = function() {
+            form1.style.display = 'none'
+            form2.style.display = 'block'
+        }
+        Bo.onclick = function() {
+            form1.style.display = 'block'
+            form2.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>

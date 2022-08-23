@@ -1,0 +1,19 @@
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+
+const main = $('.main')
+const sidebar = $('.sidebar')
+const line = $('.line')
+const a = document.getElementsByTagName('a')
+const navItem = $('.nav-item')
+const newPlaylist = $('.new-playlist')
+const headerUseri = $('.header-user i')
+const jsUpload = $('.js-upload')
+const jsLogout = $('.js-logout')
+const jsImg = $('.js-imglogin')
+const userImportVip = $('.user-import-vip')
+const songName = $('.song-name')
+const songSinger = $('.song-singer')
+const timeTotalSpan = $('.time-singer span')
+const ChamDoc = $('.a.user-more i')
+const songOptioni = $('.song-option i')
